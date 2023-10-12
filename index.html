@@ -75,7 +75,41 @@
 
             <!-- Navbar Start -->
             <nav class="nav">
-                
+                <div class="topnav" id="myTopnav">
+                    <div class="dropdown">
+                        <button class="all-departments-btn">
+                            <i style="margin-right: 8px;" class="fa-brands fa-windows"></i>
+                            All Departments
+                        </button>
+                        <div class="dropdown-content">
+                          <a href="#">Link 1</a>
+                          <a href="#">Link 2</a>
+                          <a href="#">Link 3</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                      <button class="dropbtn">Dropdown
+                        <i class="fa fa-caret-down"></i>
+                      </button>
+                      <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                      </div>
+                    </div>
+                    <div class="dropdown">
+                      <button class="dropbtn">Dropdown
+                        <i class="fa fa-caret-down"></i>
+                      </button>
+                      <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                      </div>
+                    </div>
+                    <a href="#about">About</a>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+                  </div>
             </nav>
             <!-- Navbar End -->
         </header>
@@ -83,6 +117,16 @@
     </div>
     <!-- Main Container End -->
 
-    <script src="assets/js/script.js"></script>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+        }
+    }
+    
+    </script>
 </body>
 </html>
