@@ -320,7 +320,7 @@
       top: 0;
     }
     .topnav.responsive a {
-      float: none;
+      float: right;
       display: block;
       text-align: left;
     }
