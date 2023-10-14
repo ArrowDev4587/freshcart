@@ -212,11 +212,17 @@
 
 /* Navbar */
 /* Add a black background color to the top navigation */
+nav {
+  border-bottom: 1px solid #d3d3d3;
+}
+
 .topnav {
   width: 1300px;
   margin: 0 auto;
   display: flex;
   align-items: center;
+  padding-bottom: 10px;
+
 }
   
 .nav-item {
@@ -368,7 +374,85 @@
 
 /* Main Slider */
 .swiper {
-  width: 600px;
-  height: 300px;
-  border: green 1px solid;
+  display: flex;
+  width: 1300px;
+  height: 500px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.main-slide {
+  display: flex;
+  width: 1300px;
+  height: 500px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.slide-content {
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 60px;
+  float: left;
+}
+
+.discount-badge {
+  background: orange;
+  width: 220px;
+  color: black;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  border-radius: 10px;
+  padding: 3px;
+}
+
+.slide-head {
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+  margin-top: 10px;
+}
+
+.slide-text {
+  width: 420px;
+  color: grey;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.slide-btn {
+  width: 120px;
+  height: 40px;
+  background: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 20px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.slide-btn i {
+  margin-left: 5px;
+  font-size: 10px;
+}
+
+.slide-btn:hover {
+  transition: 0.5s;
+  background: grey;
+}
+
+.slide-image img{
+  position: static;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  border-radius: 10px;
 }
