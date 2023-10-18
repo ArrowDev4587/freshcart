@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
 
 *{
     font-family: "Montserrat", sans-serif;
@@ -24,6 +24,13 @@
     padding: 5px 0;
 }
 
+.motto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; 
+}
+
 .motto p {
     font-size: 14px;
     color: grey;
@@ -32,16 +39,14 @@
 
 .language-dropdown {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    width: 140px;
     position: relative; 
 }
 
 .lang-drop-btn {
     background: transparent;
     color: black;
-
     font-size: 14px;
     border: none;
     cursor: pointer;
@@ -51,9 +56,8 @@
 }
   
 .lang-down-icon {
-    margin-left: 5px;
-    margin-top: 3px;
-    font-size: 14px;
+    margin-left: 10px;
+    font-size: 12px;
     color: grey;
   }
 
@@ -90,8 +94,16 @@
 /* Header Bar */
 .header-bar {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between  ;
   align-items: center;
+  width: 1300px;
+}
+
+.header-bar-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 
 .header-bar-menu {
@@ -161,6 +173,8 @@
     position: relative;
     justify-items: center;
     align-items: center;
+    width: 160px;
+    justify-content: flex-end;
 }
 
 .favorites-icon {
@@ -244,6 +258,7 @@ nav {
 .dropdown {
   float: left;
   overflow: hidden;
+  z-index: 3;
 }
   
 .dropdown .dropbtn {
@@ -264,7 +279,7 @@ nav {
   min-width: 200px;
   width: 200px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+  z-index: 5;
   border-radius: 15px;
 }
 
@@ -322,7 +337,7 @@ nav {
   
 .mega-dropdown-content {
   width: 1130px;
-  z-index: 2;
+  z-index: 6;
   display: none;
   position: absolute;
   margin-top: 40px;
@@ -379,6 +394,7 @@ nav {
   height: 500px;
   margin-top: 20px;
   border-radius: 10px;
+  z-index: 2;
 }
 
 .main-slide {
@@ -387,6 +403,7 @@ nav {
   height: 500px;
   border-radius: 10px;
   position: relative;
+  z-index: 2;
 }
 
 .slide-content {
@@ -394,6 +411,7 @@ nav {
   margin-top: 100px;
   margin-left: 60px;
   float: left;
+  z-index: 2;
 }
 
 .discount-badge {
@@ -455,4 +473,20 @@ nav {
   height: 100%;
   object-fit: fill;
   border-radius: 10px;
+}
+
+/* Featured Slider */
+.featured-container {
+  display: block;
+  justify-content: space-between;
+  align-items: center;
+  width: 1300px;
+  margin: 10px auto;
+  border-radius: 10px;
+}
+
+.featured-head {
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
 }
