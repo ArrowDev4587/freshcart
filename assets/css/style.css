@@ -599,3 +599,29 @@ nav {
   transition: 0.5s;
   background: grey;
 }
+
+.pop-prod-container {
+  max-width: 1300px;
+  margin: 50px auto
+}
+
+.pop-prod {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  flex-wrap: wrap;
+  width: 1300px;
+  margin-top: 40px;
+}
+
+.pop-prod-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 210px;
+  height: 320px;
+  border: #d3d3d3 1px solid;
+  border-radius: 10px;
+  margin: 8px 8px 8px 0;
+  padding: 20px;
+}
+
