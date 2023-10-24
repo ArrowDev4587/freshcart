@@ -17,5 +17,5 @@ const s2 = new Swiper('.s2', {
     loop: false,
     slidesPerView: 6,
     freeMode: true,
-    spaceBetween: 20,
+    spaceBetween: 0,
 });
