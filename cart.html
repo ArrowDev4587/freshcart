@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Freshcart</title>
+    <!-- Neccesary libraries -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Main Container Start -->
+    <div class="main-container">
+        <!-- Header Start -->
+        <header>	
+            <!-- TopMenu Start -->
+            <div class="top-menu-container">
+                <div class="motto">
+                    <p>Super Value Deals - Save more with coupons</p>
+                </div> 
+                <div class="language-dropdown" onclick="langDropdown()">
+                    <div class="lang-dropdown">
+                        <button class="lang-drop-btn">
+                            <img style="margin-right: 5px;" src="assets/image/logo/british-flag.jpg" width="18" height="14" alt="flag">
+                            English
+                            <i class="fa fa-chevron-down down-icon"></i>
+                        </button>
+                        <div class="lang-dropdown-content">
+                            <a href="#">
+                                <img style="margin-right: 5px;" src="assets/image/logo/french-flag.png" width="18" height="15" alt="flag">
+                                French
+                            </a>
+                            <a href="#">
+                                <img style="margin-right: 5px;" src="assets/image/logo/german-flag.png" width="18" height="15" alt="flag">
+                                Germany
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- TopMenu End -->
+            <!-- Header Center Menu Start -->
+            <div class="header-bar">
+                <d class="header-bar-menu">
+                    <div class="header-bar-logo">
+                        <img src="assets/image/logo/download.svg" width="161" height="31" alt="logo">
+                    </div>
+                    <div class="header-center">
+                        <div class="header-bar-search">
+                            <input type="text" class="search-input" placeholder="Search for products">
+                            <button type="submit" class="search-btn">
+                                <i class="fa fa-search"></i>
+                            </button>
+                        </div>
+                        <div class="location-btn">
+                            <i class="fa fa-map-marker-alt"></i>
+                            Location
+                        </div>
+                    </div>
+                    <div class="header-right">
+                        <div class="favorites-icon">
+                            <a href=""><i class="fa-regular fa-heart"></i></a>
+                            <span class="badge" >5</span>
+                        </div>
+                        <div class="account-icon">
+                            <a href=""><i class="fa-regular fa-user"></i></a>
+                        </div>
+                        <div class="cart-icon">
+                            <a href="cart.html"><i class="fa-solid fa-basket-shopping"></i></a>
+                            <span class="badge" >1</span>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+            <!-- Header Center Menu End -->
+
+            <!-- Navbar Start -->
+            <nav>
+                <div class="topnav" id="myTopnav">
+                    <div class="dropdown">
+                        <button class="all-departments-btn">
+                            <i style="margin-right: 8px;" class="fa-brands fa-microsoft"></i>
+                            All departments
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="#">Dairy, Bread &amp; Eggs</a>
+                            <a href="#">Snacks &amp; Munchies</a>
+                            <a href="#">Fruits &amp; Vegetables</a>
+                            <a href="#">Cold Drinks &amp; Juices</a>
+                            <a href="#">Breakfast &amp; Instant Food</a>
+                            <a href="#">Bakery &amp; Biscuits</a>
+                            <a href="#">Chicken, Meat &amp; Fish</a>
+                        </div>
+                    </div>
+                    <a class="nav-item" href="#home">
+                        Home
+                    </a>
+                    <div class="mega-dropdown">
+                        <a class="nav-item">
+                            Categories
+                            <i class="fa fa-chevron-down down-icon"></i>
+                        </a>
+                        <div class="mega-dropdown-content">
+                            <ul>
+                                <li>
+                                    <h4>Dairy, Bread &amp; Eggs</h4>
+                                </li>
+                                <li><a href="#">
+                                    Butter 
+                                </a></li>
+                                <li><a href="#">
+                                    Milk Drinks 
+                                </a></li>
+                                <li><a href="#">
+                                    Store Curd &amp; Yogurt 
+                                </a></li>
+                                <li><a href="#">
+                                    Eggs 
+                                </a></li>
+                                <li><a href="#">
+                                    Buns &amp; Bakery 
+                                </a></li>
+                                <li><a href="#">
+                                    Cheese 
+                                </a></li>
+                                <li><a href="#">
+                                    Condensed Milk 
+                                </a></li>
+                                <li><a href="#">
+                                    Dairy Products 
+                                </a></li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <h4>Breakfast &amp; Instant Food</h4>
+                                </li>
+                                <li><a href="#">
+                                    Breakfast Cereal 
+                                </a></li>
+                                <li><a href="#">
+                                    Noodles, Pasta &amp; Soup 
+                                </a></li>
+                                <li><a href="#">
+                                    Frozen Veg Sn 
+
+                                </a></li>
+                                <li><a href="#"> 
+                                    Frozen Non-Veg Snacks 
+
+                                </a></li>
+                                <li><a href="#"> 
+                                    Vermicelli 
+
+                                </a></li>
+                                <li><a href="#"> 
+                                    Instant Mixes 
+
+                                </a></li>
+                                <li><a href="#"> 
+                                    Batter 
+                                </a></li>
+                                <li><a href="#"> 
+                                    Fruit and Juices 
+                                </a></li>
+
+                            </ul>
+                            <ul>
+                                <li>
+                                    <h4>Cold Drinks &amp; Juices</h4>
+                                </li>
+                                <li><a href="#">
+                                    Soft Drinks 
+                                </a></li>
+                                <li><a href="#">
+                                    Fruit Juices 
+                                </a></li>
+                                <li><a href="#">
+                                    Coldpress 
+                                </a></li>
+                                <li><a href="#">
+                                    Water &amp; Ice Cubes 
+                                </a></li>
+                                <li><a href="#">
+                                    Soda &amp; Mixers 
+                                </a></li>
+                                <li><a href="#">
+                                    Health Drinks 
+                                </a></li>
+                                <li><a href="#">
+                                    Herbal Drinks 
+                                </a></li>
+                                <li><a href="#">
+                                    Milk Drinks 
+                                </a></li>
+                            </ul>
+                            <ul>
+                                <img height="320" src="assets/image/banner/menu-banner.jpg" alt="">
+                            </ul>
+                        </div>
+                    </div>
+                    <a class="nav-item" href="#deals">
+                        Deals
+                    </a>
+                    <a class="nav-item" href="#popular_products">
+                        Popular Products
+                    </a>
+                    <a class="nav-item" href="#about">
+                        About
+                    </a>
+                  </div>
+                </nav>
+            <!-- Navbar End -->
+        </header>
+        <!-- Header End -->
+
+        <!-- Cart Container Start -->
+        <div class="cart-container">
+            <h2 class="cart-head">Cart</h2>
+
+            <!-- Cart Start -->
+            <div class="cart">
+                <div class="cart-items">
+                    <div class="cart-item">
+                        <div class="cart-item-left">
+                            <img src="assets/image/product/product-img-4.jpg" class="cart-item-img" alt="">
+                        </div>
+                        <div class="cart-center-left">
+                            <div class="cart-item-title">
+                                <h4>Haldiram's Sev Bhujia</h4>
+                            </div>
+                            <div class="cart-item-menu">
+                                <div class="cart-item-menu-btn">
+                                    <i class="fa fa-trash"></i>
+                                    Remove item
+                                </div>
+                                <div class="cart-item-wishlist">
+                                    <div class="cart-item-menu-btn">
+                                        <i class="fa-regular fa-heart"></i>
+                                        Check later
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart-center-right">
+                            <div class="cart-item-quantity">
+                                <div class="cart-item-quantity-btn">
+                                    <div class="cart-item-quantity-btn-minus"><i class="fa-solid fa-minus"></i></div>
+                                    <input type="text" class="cart-item-quantity-input" value="1">
+                                    <div class="cart-item-quantity-btn-plus"><i class="fa-solid fa-plus"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart-item-right">
+                            <h3 class="cart-item-price">$19.12</h3>
+                            <h4 class="cart-item-discount">$35.50</h4>
+                            <p class="cart-item-saving"><span class="saving-badge">You save</span> $3.5</p>
+                        </div>
+                    </div>
+                    <div class="cart-item">
+                        <div class="cart-item-left">
+                            <img src="assets/image/product/product-img-4.jpg" class="cart-item-img" alt="">
+                        </div>
+                        <div class="cart-center-left">
+                            <div class="cart-item-title">
+                                <h4>Haldiram's Sev Bhujia</h4>
+                            </div>
+                            <div class="cart-item-menu">
+                                <div class="cart-item-menu-btn">
+                                    <i class="fa fa-trash"></i>
+                                    Remove item
+                                </div>
+                                <div class="cart-item-wishlist">
+                                    <div class="cart-item-menu-btn">
+                                        <i class="fa-regular fa-heart"></i>
+                                        Check later
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart-center-right">
+                            <div class="cart-item-quantity">
+                                <div class="cart-item-quantity-btn">
+                                    <div class="cart-item-quantity-btn-minus"><i class="fa-solid fa-minus"></i></div>
+                                    <input type="text" class="cart-item-quantity-input" value="1">
+                                    <div class="cart-item-quantity-btn-plus"><i class="fa-solid fa-plus"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart-item-right">
+                            <h3 class="cart-item-price">$19.12</h3>
+                            <h4 class="cart-item-discount">$35.50</h4>
+                            <p class="cart-item-saving"><span class="saving-badge">You save</span> $3.5</p>
+                        </div>
+                    </div>
+                    <div class="cart-item">
+                        <div class="cart-item-left">
+                            <img src="assets/image/product/product-img-4.jpg" class="cart-item-img" alt="">
+                        </div>
+                        <div class="cart-center-left">
+                            <div class="cart-item-title">
+                                <h4>Haldiram's Sev Bhujia</h4>
+                            </div>
+                            <div class="cart-item-menu">
+                                <div class="cart-item-menu-btn">
+                                    <i class="fa fa-trash"></i>
+                                    Remove item
+                                </div>
+                                <div class="cart-item-wishlist">
+                                    <div class="cart-item-menu-btn">
+                                        <i class="fa-regular fa-heart"></i>
+                                        Check later
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart-center-right">
+                            <div class="cart-item-quantity">
+                                <div class="cart-item-quantity-btn">
+                                    <div class="cart-item-quantity-btn-minus"><i class="fa-solid fa-minus"></i></div>
+                                    <input type="text" class="cart-item-quantity-input" value="1">
+                                    <div class="cart-item-quantity-btn-plus"><i class="fa-solid fa-plus"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart-item-right">
+                            <h3 class="cart-item-price">$19.12</h3>
+                            <h4 class="cart-item-discount">$35.50</h4>
+                            <p class="cart-item-saving"><span class="saving-badge">You save</span> $3.5</p>
+                        </div>
+                    </div>
+                    <div class="cart-item">
+                        <div class="cart-item-left">
+                            <img src="assets/image/product/product-img-4.jpg" class="cart-item-img" alt="">
+                        </div>
+                        <div class="cart-center-left">
+                            <div class="cart-item-title">
+                                <h4>Haldiram's Sev Bhujia</h4>
+                            </div>
+                            <div class="cart-item-menu">
+                                <div class="cart-item-menu-btn">
+                                    <i class="fa fa-trash"></i>
+                                    Remove item
+                                </div>
+                                <div class="cart-item-wishlist">
+                                    <div class="cart-item-menu-btn">
+                                        <i class="fa-regular fa-heart"></i>
+                                        Check later
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart-center-right">
+                            <div class="cart-item-quantity">
+                                <div class="cart-item-quantity-btn">
+                                    <div class="cart-item-quantity-btn-minus"><i class="fa-solid fa-minus"></i></div>
+                                    <input type="text" class="cart-item-quantity-input" value="1">
+                                    <div class="cart-item-quantity-btn-plus"><i class="fa-solid fa-plus"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart-item-right">
+                            <h3 class="cart-item-price">$19.12</h3>
+                            <h4 class="cart-item-discount">$35.50</h4>
+                            <p class="cart-item-saving"><span class="saving-badge">You save</span> $3.5</p>
+                        </div>
+                    </div>
+                    <div class="cart-item">
+                        <div class="cart-item-left">
+                            <img src="assets/image/product/product-img-4.jpg" class="cart-item-img" alt="">
+                        </div>
+                        <div class="cart-center-left">
+                            <div class="cart-item-title">
+                                <h4>Haldiram's Sev Bhujia</h4>
+                            </div>
+                            <div class="cart-item-menu">
+                                <div class="cart-item-menu-btn">
+                                    <i class="fa fa-trash"></i>
+                                    Remove item
+                                </div>
+                                <div class="cart-item-wishlist">
+                                    <div class="cart-item-menu-btn">
+                                        <i class="fa-regular fa-heart"></i>
+                                        Check later
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart-center-right">
+                            <div class="cart-item-quantity">
+                                <div class="cart-item-quantity-btn">
+                                    <div class="cart-item-quantity-btn-minus"><i class="fa-solid fa-minus"></i></div>
+                                    <input type="text" class="cart-item-quantity-input" value="1">
+                                    <div class="cart-item-quantity-btn-plus"><i class="fa-solid fa-plus"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart-item-right">
+                            <h3 class="cart-item-price">$19.12</h3>
+                            <h4 class="cart-item-discount">$35.50</h4>
+                            <p class="cart-item-saving"><span class="saving-badge">You save</span> $3.5</p>
+                        </div>
+                    </div>
+                    <div class="cart-item">
+                        <div class="cart-item-left">
+                            <img src="assets/image/product/product-img-4.jpg" class="cart-item-img" alt="">
+                        </div>
+                        <div class="cart-center-left">
+                            <div class="cart-item-title">
+                                <h4>Haldiram's Sev Bhujia</h4>
+                            </div>
+                            <div class="cart-item-menu">
+                                <div class="cart-item-menu-btn">
+                                    <i class="fa fa-trash"></i>
+                                    Remove item
+                                </div>
+                                <div class="cart-item-wishlist">
+                                    <div class="cart-item-menu-btn">
+                                        <i class="fa-regular fa-heart"></i>
+                                        Check later
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart-center-right">
+                            <div class="cart-item-quantity">
+                                <div class="cart-item-quantity-btn">
+                                    <div class="cart-item-quantity-btn-minus"><i class="fa-solid fa-minus"></i></div>
+                                    <input type="text" class="cart-item-quantity-input" value="1">
+                                    <div class="cart-item-quantity-btn-plus"><i class="fa-solid fa-plus"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart-item-right">
+                            <h3 class="cart-item-price">$19.12</h3>
+                            <h4 class="cart-item-discount">$35.50</h4>
+                            <p class="cart-item-saving"><span class="saving-badge">You save</span> $3.5</p>
+                        </div>
+                    </div>
+                    <div class="cart-item">
+                        <div class="cart-item-left">
+                            <img src="assets/image/product/product-img-4.jpg" class="cart-item-img" alt="">
+                        </div>
+                        <div class="cart-center-left">
+                            <div class="cart-item-title">
+                                <h4>Haldiram's Sev Bhujia</h4>
+                            </div>
+                            <div class="cart-item-menu">
+                                <div class="cart-item-menu-btn">
+                                    <i class="fa fa-trash"></i>
+                                    Remove item
+                                </div>
+                                <div class="cart-item-wishlist">
+                                    <div class="cart-item-menu-btn">
+                                        <i class="fa-regular fa-heart"></i>
+                                        Check later
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart-center-right">
+                            <div class="cart-item-quantity">
+                                <div class="cart-item-quantity-btn">
+                                    <div class="cart-item-quantity-btn-minus"><i class="fa-solid fa-minus"></i></div>
+                                    <input type="text" class="cart-item-quantity-input" value="1">
+                                    <div class="cart-item-quantity-btn-plus"><i class="fa-solid fa-plus"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart-item-right">
+                            <h3 class="cart-item-price">$19.12</h3>
+                            <h4 class="cart-item-discount">$35.50</h4>
+                            <p class="cart-item-saving"><span class="saving-badge">You save</span> $3.5</p>
+                        </div>
+                    </div>
+                    <div class="cart-item">
+                        <div class="cart-item-left">
+                            <img src="assets/image/product/product-img-4.jpg" class="cart-item-img" alt="">
+                        </div>
+                        <div class="cart-center-left">
+                            <div class="cart-item-title">
+                                <h4>Haldiram's Sev Bhujia</h4>
+                            </div>
+                            <div class="cart-item-menu">
+                                <div class="cart-item-menu-btn">
+                                    <i class="fa fa-trash"></i>
+                                    Remove item
+                                </div>
+                                <div class="cart-item-wishlist">
+                                    <div class="cart-item-menu-btn">
+                                        <i class="fa-regular fa-heart"></i>
+                                        Check later
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart-center-right">
+                            <div class="cart-item-quantity">
+                                <div class="cart-item-quantity-btn">
+                                    <div class="cart-item-quantity-btn-minus"><i class="fa-solid fa-minus"></i></div>
+                                    <input type="text" class="cart-item-quantity-input" value="1">
+                                    <div class="cart-item-quantity-btn-plus"><i class="fa-solid fa-plus"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart-item-right">
+                            <h3 class="cart-item-price">$19.12</h3>
+                            <h4 class="cart-item-discount">$35.50</h4>
+                            <p class="cart-item-saving"><span class="saving-badge">You save</span> $3.5</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cart-total">
+
+                </div>
+            </div>
+        </div>
+        <!-- Cart Container End-->
+
+        <!-- Footer Start -->
+        <footer>
+            <div class="footer-wrapper">
+                <div class="footer-left">
+                    <ul>
+                        <li><a >About Us</a></li>
+                        <li><a >Contact Us</a></li>
+                        <li><a >Terms & Conditions</a></li>
+                        <li><a >Privacy Policy</a></li>
+                        <li><a >FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-center">
+                    <div class="footer-logo">
+                        <img src="assets/image/logo/download.svg    " alt="">
+                    </div>
+                    <div class="footer-text">
+                        <p>© 2021 FreshCart. All Rights Reserved.</p>
+                    </div>
+                </div>
+                <div class="footer-right">
+                    <div class="footer-social">
+                        <a ><i class="fa-brands fa-facebook-f"></i></a>
+                        <a ><i class="fa-brands fa-twitter"></i></a>
+                        <a ><i class="fa-brands fa-instagram"></i></a>
+                        <a ><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                    <div class="footer-payment">
+                        <img src="assets/image/payment/amazonpay.svg" alt="">
+                        <img src="assets/image/payment/american-express.svg" alt="">
+                        <img src="assets/image/payment/mastercard.svg" alt="">
+                        <img src="assets/image/payment/paypal.svg" alt="">
+                        <img src="assets/image/payment/visa.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+    <!-- Main Container End -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
