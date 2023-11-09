@@ -1911,6 +1911,7 @@ footer {
   padding: 5px;
   border: 1px #d3d3d3 solid;
   transition: 0.5s;
+  cursor: pointer;
 }
 
 .footer-social a {
