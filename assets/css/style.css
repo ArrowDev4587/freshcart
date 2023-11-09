@@ -144,6 +144,16 @@
   
 .search-input:focus{
   color: black;
+  transition: 0.5s;
+  border: 1px green solid;
+  border-right: none;
+}
+
+.search-input:focus.search-btn{
+  transition: 0.5s;
+  border: 1px green solid;
+  border-left: none;
+  color: green;
 }
   
 .search-btn {
@@ -156,7 +166,7 @@
   text-align: center;
   color: grey;
   border-radius: 0 5px 5px 0;
-  border-left: none   ;
+  border-left: none;
   cursor: pointer;
   font-size: 20px;
 }
