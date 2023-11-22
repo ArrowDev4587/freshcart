@@ -1753,6 +1753,37 @@ footer {
   width: 1300px;
 }
 
+.footer-category-list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1;
+  height: 290px;
+  width: 435px;
+}
+
+.footer-category-head {
+  font-size: 14px;
+  font-weight: 700; 
+  display: flex;
+  width: 435px;
+}
+
+.footer-category-lists {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 350px;
+}
+
+.footer-category-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  row-gap: 10px;
+}
+
 .footer-list-container {
   display: flex;
   flex-direction: column;
