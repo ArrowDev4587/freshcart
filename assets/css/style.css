@@ -2081,7 +2081,7 @@ footer {
   transition: 0.5s;
 }
 
-.login-mail-input:focus.login-pass-icon {
+.login-mail-input:focus .login-mail-icon {
   border: 1px green solid;
   border-right: none;
   transition: 0.5s;
@@ -2130,7 +2130,7 @@ footer {
   transition: 0.5s;
 }
 
-.login-pass-input:focus.login-pass-icon {
+.login-pass-input:focus .login-pass-icon {
   border: 1px green solid;
   border-right: none;
   transition: 0.5s;
