@@ -1988,6 +1988,12 @@ footer {
   border: 1px #d3d3d3 solid;
   border-radius: 10px;
   padding: 20px;
+  transition: 0.5s;
+}
+
+.login-wrapper:hover {
+  border: 1px green solid;
+  transition: 0.5s;
 }
 
 .login-header {
