@@ -225,10 +225,15 @@
 
         <!-- Login container Start -->
         <div class="login-container">
+            <div class="login-banner-wrapper">
+                <div class="login-banner">
+                    <img src="assets/image/banner/signin.svg" alt="">
+                </div>                    
+            </div>
             <div class="login-wrapper">
                 <div class="login-header">
-                    <h3 class="login-title">Login</h3>
-                    <p class="login-subtitle">Login to your account</p>
+                    <h3 class="login-title">Sign in to FreshCart</h3>
+                    <p class="login-subtitle">Welcome back to FreshCart! Enter your email to get started.</p>
                 </div>
                 <div class="login-form">
                     <div class="login-mail-form-group">
@@ -242,12 +247,26 @@
                             <i class="fa-solid fa-key"></i>
                         </div>
                         <input class="login-pass-input" type="password" id="login_password" placeholder="Password">
+                        <div class="login-hide-pass">
+                            <i onclick="showLoginPass()" class="fa-solid fa-eye"></i>
+                        </div>
+                    </div>
+                    <div class="login-remember-reset-group">
+                        <div class="login-remember">
+                            <input type="checkbox" id="remember_me">
+                            <label for="remember_me">Remember me</label>
+                        </div>
+                        <div class="login-reset">
+                            <p>Forgot password?</p>
+                            <a href="javascript:void(0)">Reset It</a>
+                        </div>
                     </div>
                     <div class="login-btn-wrapper">
                         <button class="login-btn">Login</button>
                     </div>
                     <div class="login-form-footer">
-
+                        <p>Don't have an account?</p>
+                        <a href="javascript:void(0)">Sign up</a>
                     </div>
                 </div>
             </div>

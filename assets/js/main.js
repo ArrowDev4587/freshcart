@@ -28,3 +28,18 @@ const s2 = new Swiper('.s2', {
     freeMode: true,
     spaceBetween: 0,
 });
+
+function showLoginPass() {
+    var x = document.getElementById("login_password");
+    if (x.type === "password") {
+      x.type = "text";
+        var pass_icon = document.getElementsByClassName("fa-eye")[0];
+        pass_icon.classList.remove("fa-eye");
+        pass_icon.classList.add("fa-eye-slash");
+    } else {
+      x.type = "password";
+      var pass_icon = document.getElementsByClassName("fa-eye-slash")[0];
+        pass_icon.classList.remove("fa-eye-slash");
+        pass_icon.classList.add("fa-eye");
+    }
+  }
