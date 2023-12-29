@@ -3060,20 +3060,19 @@ footer {
 }
 
 .products-pop-prod-img {
-  width:  200px;
-  height: 200px;
-  object-fit: fill;
-  margin: 0 auto;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 140px;
+    height: 140px;
+    object-fit: cover;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .products-pop-prod-img img {
-  width: 200px;
-  height: 200px;
-  object-fit: fill;
+    width: 100%;
+    height: 100%;
 }
 
 .products-pop-prod-btn-group {
