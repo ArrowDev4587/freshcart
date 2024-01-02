@@ -43,3 +43,18 @@ function showLoginPass() {
         pass_icon.classList.add("fa-eye");
     }
 }
+
+function showRegisterPass() {
+    var x = document.getElementById("register_password");
+    if (x.type === "password") {
+    x.type = "text";
+        var pass_icon = document.getElementsByClassName("fa-eye")[0];
+        pass_icon.classList.remove("fa-eye");
+        pass_icon.classList.add("fa-eye-slash");
+    } else {
+    x.type = "password";
+        var pass_icon = document.getElementsByClassName("fa-eye-slash")[0];
+        pass_icon.classList.remove("fa-eye-slash");
+        pass_icon.classList.add("fa-eye");
+    }
+}
