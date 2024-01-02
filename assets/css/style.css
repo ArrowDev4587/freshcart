@@ -3044,16 +3044,17 @@ footer {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
+  justify-content: space-between;
   flex-wrap: wrap;
   width: 1000px;
-  gap: 10px;
+  gap: 10px 0;
 }
 
 .products-pop-prod-card {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 200px;
+  width: 210px;
   height: 300px;
   border: #d3d3d3 1px solid;
   border-radius: 10px;
