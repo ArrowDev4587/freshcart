@@ -58,3 +58,28 @@ function showRegisterPass() {
         pass_icon.classList.add("fa-eye");
     }
 }
+
+document.addEventListener("DOMContentLoaded", function() {
+    var accInputs = document.querySelectorAll(".productsAccordionInput");
+
+    function uncheckOtherAccordions(currentAccordion) {
+        accInputs.forEach(function(accInput) {
+            if (accInput !== currentAccordion && accInput.checked) {
+                accInput.checked = false;
+                accInput.dispatchEvent(new Event('change')); // Bu satırı ekledik
+            }
+        });
+    }
+
+    accInputs.forEach(function(accInput) {
+        accInput.addEventListener("change", function() {
+            var panel = this.nextElementSibling;
+            if (this.checked) {
+                panel.style.maxHeight = panel.scrollHeight + "px";
+                uncheckOtherAccordions(this);
+            } else {
+                panel.style.maxHeight = null;
+            }
+        });
+    });
+});
