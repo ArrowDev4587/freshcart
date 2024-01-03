@@ -3669,6 +3669,21 @@ footer {
   font-size: 14px;
 }
 
+.favoritesCardStockCount {
+  background: white;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 3px;
+    margin-right: 5px;
+    color: green;
+    font-weight: 900;
+    font-size: 14px;
+}
+
 .favoritesCardProductStatusOutOfStock {
   display: flex;
   justify-content: center;
