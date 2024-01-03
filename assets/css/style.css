@@ -3518,3 +3518,235 @@ footer {
   color: darkgreen;
   transition: 0.5s;
 }
+
+/* Favorites Page */
+.favorites-container {
+  width: 1300px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.favoritesHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.favoritesHead {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.favoritesTitle {
+  font-size: 24px;
+  font-weight: 700;
+  color: #001E2B;
+  margin-bottom: 10px;
+}
+
+.favoritesSubtitle {
+  font-size: 16px;
+  font-weight: 700;
+  color: grey;
+}
+
+.favoritesSort {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 260px;
+  height: 100%;
+  gap: 5px;
+}
+
+.favoritesSortTitle {
+  font-size: 14px;
+  font-weight: 700;
+  color: #001E2B;
+}
+
+.favoritesSortSelect {
+  width: 200px;
+  height: 100%;
+  border: 1px solid grey;
+  padding: 3px 10px 3px 5px;
+  border-radius: 5px;
+  outline: none;
+  font-size: 14px;
+  font-weight: 700;
+  transition: 0.5s;
+  color: #001E2B;
+}
+
+.favoritesSortSelect:focus {
+  border: 1px green solid;
+  transition: 0.5s;
+}
+
+.favoritesWrapper {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 1300px;
+  gap: 10px;
+}
+
+.favoritesCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 178px;
+  padding: 15px;
+  background-color: #f0f3f2;
+  border-radius: 10px;
+  gap: 15px;
+  transition: 0.5s;
+}
+
+.favoritesCardImage {
+  width: 178px;
+  height: 200px;
+  margin-bottom: 10px;
+  position: relative;
+  background-color: #cbcdcd;
+  border-radius: 10px;
+}
+
+.favoritesCardImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.favoritesCardInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 210px;
+  gap: 5px;
+}
+
+.favoritesCardTitle {
+  font-size: 14px;
+  font-weight: 700;
+  color: #001E2B;
+}
+
+.favoritesCardPrice {
+  font-size: 16px;
+  font-weight: 700;
+  color: grey;
+}
+
+.favoritesCardStatus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 210px;
+  height: 20px;
+}
+
+.favoritesCardStatusInStock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 20px;
+  padding: 5px;
+  background-color: darkgreen;
+  color: white;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.favoritesCardProductStatusOutOfStock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 20px;
+  padding: 5px;
+  background-color: darkred;
+  color: white;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.favoritesCardButtons {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 90px;
+  height: 40px;
+  border-radius: 5px;
+  gap: 5px;
+  margin-bottom: 120px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.favoritesCard:hover .favoritesCardButtons {
+  display: flex;
+  transition: 0.5s;
+}
+
+.favoritesCardAddCartButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  gap: 5px;
+  background: white;
+  color: black;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.5s;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.favoritesCardAddCartButton:hover {
+  transition: 0.5s;
+  background: green;
+  color: white;
+}
+
+.favoritesCardRemoveButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  gap: 5px;
+  background: white;
+  color: black;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.5s;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.favoritesCardRemoveButton:hover {
+  transition: 0.5s;
+  background: red;
+  color: white;
+}
+
