@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Freshcart</title>
+    <!-- Neccesary libraries -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Main Container Start -->
+    <div class="main-container">
+        <!-- Header Start -->
+        <header>	
+            <!-- TopMenu Start -->
+            <div class="top-menu-container">
+                <div class="motto">
+                    <p>Super Value Deals - Save more with coupons</p>
+                </div> 
+                <div class="language-dropdown" onclick="langDropdown()">
+                    <div class="lang-dropdown">
+                        <button class="lang-drop-btn">
+                            <img style="margin-right: 5px;" src="assets/image/logo/british-flag.jpg" width="18" height="14" alt="flag">
+                            English
+                            <i class="fa fa-chevron-down down-icon"></i>
+                        </button>
+                        <div class="lang-dropdown-content">
+                            <a href="javascript:void(0)">
+                                <img style="margin-right: 5px;" src="assets/image/logo/french-flag.png" width="18" height="15" alt="flag">
+                                French
+                            </a>
+                            <a href="javascript:void(0)">
+                                <img style="margin-right: 5px;" src="assets/image/logo/german-flag.png" width="18" height="15" alt="flag">
+                                Germany
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- TopMenu End -->
+            <!-- Header Center Menu Start -->
+            <div class="header-bar">
+                <div class="header-bar-menu">
+                    <a href="/">
+                        <div class="header-bar-logo">
+                            <img src="assets/image/logo/download.svg" width="161" height="31" alt="logo">
+                        </div>
+                    </a>
+                    <div class="header-center">
+                        <div class="header-bar-search">
+                            <input type="text" class="search-input" placeholder="Search for products">
+                            <button type="submit" class="search-btn">
+                                <i class="fa fa-search"></i>
+                            </button>
+                        </div>
+                        <div class="location-btn">
+                            <i class="fa fa-map-marker-alt"></i>
+                            Location
+                        </div>
+                    </div>
+                    <div class="header-right">
+                        <div class="favorites-icon">
+                            <a href="favorites.html"><i class="fa-regular fa-heart"></i></a>
+                            <span class="badge" >5</span>
+                        </div>
+                        <div class="account-icon language-dropdown" onclick="accountDropdown()">
+                            <div class="account-dropdown">
+                                <button class="account-drop-btn">
+                                    <i class="fa-regular fa-user"></i>
+                                </button>
+                                <div class="account-dropdown-content">
+                                    <a href="login.html"><div class="account-btn">Login</div></a>
+                                    <a href="javascript:void(0)"><div class="account-btn">Register</div></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart-icon">
+                            <a href="cart.html"><i class="fa-solid fa-basket-shopping"></i></a>
+                            <span class="badge" >1</span>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+            <!-- Header Center Menu End -->
+
+            <!-- Navbar Start -->
+            <nav>
+                <div class="topnav" id="myTopnav">
+                    <div class="dropdown">
+                        <button class="all-departments-btn">
+                            <i style="margin-right: 8px;" class="fa-brands fa-microsoft"></i>
+                            All departments
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="javascript:void(0)">Dairy, Bread &amp; Eggs</a>
+                            <a href="javascript:void(0)">Snacks &amp; Munchies</a>
+                            <a href="javascript:void(0)">Fruits &amp; Vegetables</a>
+                            <a href="javascript:void(0)">Cold Drinks &amp; Juices</a>
+                            <a href="javascript:void(0)">Breakfast &amp; Instant Food</a>
+                            <a href="javascript:void(0)">Bakery &amp; Biscuits</a>
+                            <a href="javascript:void(0)">Chicken, Meat &amp; Fish</a>
+                        </div>
+                    </div>
+                    <a class="nav-item" href="/">
+                        Home
+                    </a>
+                    <div class="mega-dropdown">
+                        <a href="/products.html" hrefclass="nav-item">
+                            Categories
+                            <i class="fa fa-chevron-down down-icon"></i>
+                        </a>
+                        <div class="mega-dropdown-content">
+                            <ul>
+                                <li>
+                                    <h4>Dairy, Bread &amp; Eggs</h4>
+                                </li>
+                                <li><a href="javascript:void(0)">
+                                    Butter 
+                                </a></li>
+                                <li><a href="javascript:void(0)">
+                                    Milk Drinks 
+                                </a></li>
+                                <li><a href="javascript:void(0)">
+                                    Store Curd &amp; Yogurt 
+                                </a></li>
+                                <li><a href="javascript:void(0)">
+                                    Eggs 
+                                </a></li>
+                                <li><a href="javascript:void(0)">
+                                    Buns &amp; Bakery 
+                                </a></li>
+                                <li><a href="javascript:void(0)">
+                                    Cheese 
+                                </a></li>
+                                <li><a href="javascript:void(0)">
+                                    Condensed Milk 
+                                </a></li>
+                                <li><a href="javascript:void(0)">
+                                    Dairy Products 
+                                </a></li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <h4>Breakfast &amp; Instant Food</h4>
+                                </li>
+                                <li><a href="javascript:void(0)">
+                                    Breakfast Cereal 
+                                </a></li>
+                                <li><a href="javascript:void(0)">
+                                    Noodles, Pasta &amp; Soup 
+                                </a></li>
+                                <li><a href="javascript:void(0)">
+                                    Frozen Veg Sn 
+
+                                </a></li>
+                                <li><a href="javascript:void(0)"> 
+                                    Frozen Non-Veg Snacks 
+
+                                </a></li>
+                                <li><a href="javascript:void(0)"> 
+                                    Vermicelli 
+
+                                </a></li>
+                                <li><a href="javascript:void(0)"> 
+                                    Instant Mixes 
+
+                                </a></li>
+                                <li><a href="javascript:void(0)"> 
+                                    Batter 
+                                </a></li>
+                                <li><a href="javascript:void(0)"> 
+                                    Fruit and Juices 
+                                </a></li>
+
+                            </ul>
+                            <ul>
+                                <li>
+                                    <h4>Cold Drinks &amp; Juices</h4>
+                                </li>
+                                <li><a href="javascript:void(0)">
+                                    Soft Drinks 
+                                </a></li>
+                                <li><a href="javascript:void(0)">
+                                    Fruit Juices 
+                                </a></li>
+                                <li><a href="javascript:void(0)">
+                                    Coldpress 
+                                </a></li>
+                                <li><a href="javascript:void(0)">
+                                    Water &amp; Ice Cubes 
+                                </a></li>
+                                <li><a href="javascript:void(0)">
+                                    Soda &amp; Mixers 
+                                </a></li>
+                                <li><a href="javascript:void(0)">
+                                    Health Drinks 
+                                </a></li>
+                                <li><a href="javascript:void(0)">
+                                    Herbal Drinks 
+                                </a></li>
+                                <li><a href="javascript:void(0)">
+                                    Milk Drinks 
+                                </a></li>
+                            </ul>
+                            <ul>
+                                <img height="320" src="assets/image/banner/menu-banner.jpg" alt="">
+                            </ul>
+                        </div>
+                    </div>
+                    <a class="nav-item" href="#deals">
+                        Deals
+                    </a>
+                    <a class="nav-item" href="#popular_products">
+                        Popular Products
+                    </a>
+                    <a href="about.html" class="nav-item" href="#about">
+                        About
+                    </a>
+                </div>
+            </nav>
+            <!-- Navbar End -->
+        </header>
+        <!-- Header End -->
+
+        <!-- Product Start -->
+        <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper2">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+          <div thumbsSlider="" class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+              </div>
+
+            </div>
+          </div>
+        <!-- Product End -->
+    </div>
+    <!-- Main Container End -->
+
+    <!-- Footer Start -->
+    <footer>
+        <div class="footer-top-wrapper">
+            <div class="footer-category-list-container">
+                <div class="footer-category-head">
+                    <h3 class="footer-list-title">Categories</h3>
+                </div>
+                <div class="footer-category-lists">
+                    <ul class="footer-category-list">
+                        <li class="footer-list-item"><a href="javascript:void(0)">Vegetables & Fruits</a></li>
+                        <li class="footer-list-item"><a href="javascript:void(0)">Breakfast & instant food</a></li>
+                        <li class="footer-list-item"><a href="javascript:void(0)">Bakery & Biscuits</a></li>
+                        <li class="footer-list-item"><a href="javascript:void(0)">Atta, rice & dal</a></li>
+                        <li class="footer-list-item"><a href="javascript:void(0)">Sauces & spreads</a></li>
+                        <li class="footer-list-item"><a href="javascript:void(0)">Organic & gourmet</a></li>
+                        <li class="footer-list-item"><a href="javascript:void(0)">Baby care</a></li>
+                        <li class="footer-list-item"><a href="javascript:void(0)">Cleaning essentials</a></li>
+                        <li class="footer-list-item"><a href="javascript:void(0)">Personal care</a></li>
+                    </ul>
+                    <ul class="footer-category-list">
+                        <li class="footer-list-item"><a href="javascript:void(0)">Dairy, bread & eggs</a></li>
+                        <li class="footer-list-item"><a href="javascript:void(0)">Cold drinks & juices</a></li>
+                        <li class="footer-list-item"><a href="javascript:void(0)">Tea, coffee & drinks</a></li>
+                        <li class="footer-list-item"><a href="javascript:void(0)">Masala, oil & more</a></li>
+                        <li class="footer-list-item"><a href="javascript:void(0)">Chicken, meat & fish</a></li>
+                        <li class="footer-list-item"><a href="javascript:void(0)">Paan corner</a></li>
+                        <li class="footer-list-item"><a href="javascript:void(0)">Pharma & wellness</a></li>
+                        <li class="footer-list-item"><a href="javascript:void(0)">Home & office</a></li>
+                        <li class="footer-list-item"><a href="javascript:void(0)">Pet care</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-list-container">
+                <h3 class="footer-list-title">Get to know us</h3>
+                <ul class="footer-list">
+                    <li class="footer-list-item"><a href="javascript:void(0)">Company</a></li>
+                    <li class="footer-list-item"><a href="javascript:void(0)">About</a></li>
+                    <li class="footer-list-item"><a href="javascript:void(0)">Blog</a></li>
+                    <li class="footer-list-item"><a href="javascript:void(0)">Help Center</a></li>
+                    <li class="footer-list-item"><a href="javascript:void(0)">Our Value</a></li>
+                </ul>
+            </div>
+            <div class="footer-list-container">
+                <h3 class="footer-list-title">For consumers</h3>
+                <ul class="footer-list">
+                    <li class="footer-list-item"><a href="javascript:void(0)">Payments</a></li>
+                    <li class="footer-list-item"><a href="javascript:void(0)">Shipping</a></li>
+                    <li class="footer-list-item"><a href="javascript:void(0)">Product Returns</a></li>
+                    <li class="footer-list-item"><a href="javascript:void(0)">FAQ</a></li>
+                    <li class="footer-list-item"><a href="javascript:void(0)">Shop Checkout</a></li>
+                </ul>
+            </div>
+            <div class="footer-list-container">
+                <h3 class="footer-list-title">Become a shopper</h3>
+                <ul class="footer-list">
+                    <li class="footer-list-item"><a href="javascript:void(0)">Shopper Opportunities</a></li>
+                    <li class="footer-list-item"><a href="javascript:void(0)">Become a Shopper</a></li>
+                    <li class="footer-list-item"><a href="javascript:void(0)">Earnings</a></li>
+                    <li class="footer-list-item"><a href="javascript:void(0)">Ideas & Guides</a></li>
+                    <li class="footer-list-item"><a href="javascript:void(0)">New Retailers</a></li>
+                </ul>
+            </div>
+            <div class="footer-list-container">
+                <h3 class="footer-list-title">Freshcart programs</h3>
+                <ul class="footer-list">
+                    <li class="footer-list-item"><a href="javascript:void(0)">Freshcart programs</a></li>
+                    <li class="footer-list-item"><a href="javascript:void(0)">Gift Cards</a></li>
+                    <li class="footer-list-item"><a href="javascript:void(0)">Promos & Coupons</a></li>
+                    <li class="footer-list-item"><a href="javascript:void(0)">Freshcart Ads</a></li>
+                    <li class="footer-list-item"><a href="javascript:void(0)">Careers</a></li>
+                </ul>
+            </div>
+            
+        </div>
+
+        <div class="footer-center-wrapper">
+            <div class="footer-center-left">
+                <h3 class="footer-payment-title">Payment Partners</h3>
+                <div class="payment-partners">
+                    <div class="payment-partner">
+                        <img src="assets/image/payment/amazonpay.svg" alt="">
+                    </div>
+                    <div class="payment-partner">
+                        <img src="assets/image/payment/american-express.svg" alt="">
+                    </div>
+                    <div class="payment-partner">
+                        <img src="assets/image/payment/mastercard.svg" alt="">
+                    </div>
+                    <div class="payment-partner">
+                        <img src="assets/image/payment/paypal.svg" alt="">
+                    </div>
+                    <div class="payment-partner">
+                        <img src="assets/image/payment/visa.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="footer-center-right">
+                <h3 class="footer-app-title">Get deliveries with FreshCart</h3>
+                <div class="footer-download-options">
+                    <div class="footer-download-option">
+                        <a href="javascript:void(0)">
+                            <img src="assets/image/logo/googleplay-btn.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="footer-download-option">
+                        <a href="javascript:void(0)">
+                            <img src="assets/image/logo/appstore-btn.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom-wrapper">
+            <div class="footer-bottom-left">
+                <p class="footer-bottom-text">© 1912 FreshCart. All rights reserved. Made by <span><a href="https://github.com/ahmeta1912">Arrow</a></span> with 💚</p>
+            </div>
+            <div class="footer-bottom-right">
+                <h3 class="social-title">Follow us on</h3>
+                <div class="footer-socials">
+                    <div class="footer-social">
+                        <a href="javascript:void(0)"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                    <div class="footer-social">
+                        <a href="javascript:void(0)"><i class="fa-brands fa-x-twitter"></i></a>
+                    </div>
+                    <div class="footer-social">
+                        <a href="javascript:void(0)"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End-->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
