@@ -91,16 +91,26 @@ var swiper = new Swiper(".mySwiper", {
     slidesPerView: 4,
     freeMode: true,
     watchSlidesProgress: true,
-  });
-  var swiper2 = new Swiper(".mySwiper2", {
+});
+var swiper2 = new Swiper(".mySwiper2", {
     loop: false,
     spaceBetween: 10,
     freeMode: false,
     navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
     },
     thumbs: {
-      swiper: swiper,
+        swiper: swiper,
     },
-  });
+});
+
+
+function activateTab(tabName) {
+    var i;
+    var x = document.getElementsByClassName("productDetailsTabContent");
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+    }
+    document.getElementById(tabName).style.display = "block";  
+}

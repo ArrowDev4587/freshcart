@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/productdetail.css">
 </head>
 <body>
     <!-- Main Container Start -->
@@ -224,41 +225,223 @@
         <!-- Header End -->
 
         <!-- Product Start -->
-        <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper2">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <img src="https://freshcart.codescandy.com/assets/images/products/product-single-img-1.jpg" />
-              </div>
-              <div class="swiper-slide">
-                <img src="https://freshcart.codescandy.com/assets/images/products/product-single-img-2.jpg" />
-              </div>
-              <div class="swiper-slide">
-                <img src="https://freshcart.codescandy.com/assets/images/products/product-single-img-3.jpg" />
-              </div>
-              <div class="swiper-slide">
-                <img src="https://freshcart.codescandy.com/assets/images/products/product-single-img-4.jpg" />
-              </div>
+        <div class="product-container">
+            <div class="productWrapper">
+                <div class="productWrapperLeft">
+                    <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper2">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="https://freshcart.codescandy.com/assets/images/products/product-single-img-1.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="https://freshcart.codescandy.com/assets/images/products/product-single-img-2.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="https://freshcart.codescandy.com/assets/images/products/product-single-img-3.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="https://freshcart.codescandy.com/assets/images/products/product-single-img-4.jpg" />
+                            </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                    <div thumbsSlider="" class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="https://freshcart.codescandy.com/assets/images/products/product-single-img-1.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="https://freshcart.codescandy.com/assets/images/products/product-single-img-2.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="https://freshcart.codescandy.com/assets/images/products/product-single-img-3.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="https://freshcart.codescandy.com/assets/images/products/product-single-img-4.jpg" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="productWrapperRight">
+                    <div class="productDetails">
+                        <div class="productCategory">
+                            Bakery Biscuits
+                        </div>
+                        <div class="productTitle">
+                            Napolitanke Ljesnjak
+                        </div>
+                        <div class="productReviews">
+                            <div class="productReviewStars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half"></i>
+                            </div>
+                            <span class="productReviewCount">
+                                (30 Reviews)
+                            </span>
+                        </div>
+                        <div class="productPrice">
+                            $32 
+                            <span class="productDiscountPrice">$35</span>
+                            <span class="productDiscountRate">26% Off</span>
+                        </div>
+                        <hr>
+                        <div class="productAmountOptions">
+                            <div class="productAmountOption">
+                                <label for="productAmount">250g</label>
+                                <input type="radio" name="productAmount" id="productAmount" value="250g" checked>
+                            </div>
+                            <div class="productAmountOption">
+                                <label for="productAmount">500g</label>
+                                <input type="radio" name="productAmount" id="productAmount" value="500g">
+                            </div>
+                            <div class="productAmountOption">
+                                <label for="productAmount">1kg</label>
+                                <input type="radio" name="productAmount" id="productAmount" value="1kg">
+                            </div>
+                        </div>
+                        <div class="productQuantity">
+                            <div class="productQuantityLeftBtn">
+                                <i class="fa-solid fa-minus"></i>
+                            </div>
+                            <input type="text" class="productQuantityInput" value="1">
+                            <div class="productQuantityRightBtn">
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                        </div>
+                        <div class="productButtonGroup">
+                            <div class="productAddCartButton">
+                                <i class="fa-solid fa-shopping-cart"></i>
+                                Add to cart
+                            </div>
+                            <div class="productAddFavoriteButton">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="productDescription">
+                            <div class="productDescriptionTable">
+                                <table>
+                                    <tr>
+                                        <td>Product Code:</td>
+                                        <td>FBB00255</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Availability:</td>
+                                        <td>In Stock</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Type:</td>
+                                        <td>Fruits</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Shipping:</td>
+                                        <td>01 day shipping. ( Free pickup today)</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="productWrapperBottom">
+                    <div class="productDetailsTabWrapper">
+                        <div class="productDetailsTab">
+                            <div class="productDetailsTabItem" onclick="activateTab('tab_productDetail')">
+                                Product Details
+                            </div>
+                            <div class="productDetailsTabItem" onclick="activateTab('tab_information')">
+                                Information
+                            </div>
+                            <!--<div class="productDetailsTabItem" onclick="activateTab('tab_reviews')">
+                                Reviews
+                            </div>-->
+                        </div>
+                        <div class="productDetailsTabContent" id="tab_productDetail">
+                            <div class="productDetailsTabContentItem">
+                                <h3>Nutrient Value & Benefits</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisi, tellus iaculis urna bibendum in lacus, integer. Id imperdiet vitae varius sed magnis eu nisi nunc sit. Vel, varius habitant ornare ac rhoncus. Consequat risus facilisis ante ipsum netus risus adipiscing sagittis sed. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <h3>Storage Tips</h3>
+                                <p>Nisi, tellus iaculis urna bibendum in lacus, integer. Id imperdiet vitae varius sed magnis eu nisi nunc sit. Vel, varius habitant ornare ac rhoncus. Consequat risus facilisis ante ipsum netus risus adipiscing sagittis sed.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <h3>Unit</h3>
+                                <p>3 units</p>
+                                <h3>Seller</h3>
+                                <p>DMart Pvt. LTD</p>
+                                <h3>Disclaimer</h3>
+                                <p>Image shown is a representation and may slightly vary from the actual product. Every effort is made to maintain accuracy of all information displayed.</p>
+                            </div>
+                        </div>
+                        <div class="productDetailsTabContent hidden-tab" id="tab_information">
+                            <div class="productDetailsTabContentItem">
+                                <h3>Details</h3>
+                                <div class="productInfoTableWrapper">
+                                    <table class="productInfoTable1">
+                                        <tr>
+                                            <td>Weight</td>
+                                            <td>1000 Grams</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Ingredient Type</td>
+                                            <td>Vegetarian</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Brand</td>
+                                            <td>Dmart</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Item Package Quantity</td>
+                                            <td>1</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Form</td>
+                                            <td>Larry the Bird</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Manufacturer</td>
+                                            <td>Dmart</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Net Quantity</td>
+                                            <td>340.0 Gram</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Product Dimensions</td>
+                                            <td>9.6 x 7.49 x 18.49 cm</td>
+                                        </tr>
+                                    </table>
+                                    <table class="productInfoTable2">
+                                        <tr>
+                                            <td>ASIN</td>
+                                            <td>SB0025UJ75W</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Best Sellers Rank</td>
+                                            <td>#2 in Fruits</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Date First Available</td>
+                                            <td>30 April 2022</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Item Weight</td>
+                                            <td>500g</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Generic Name</td>
+                                            <td>Banana Robusta</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="productDetailsTabContent hidden-tab" id="tab_reviews">
+                            <div class="productDetailsTabContentItem">Deneme2</div>
+                        </div> -->
+                    </div>
+                </div>
             </div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-          </div>
-          <div thumbsSlider="" class="swiper mySwiper">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <img src="https://freshcart.codescandy.com/assets/images/products/product-single-img-1.jpg" />
-              </div>
-              <div class="swiper-slide">
-                <img src="https://freshcart.codescandy.com/assets/images/products/product-single-img-2.jpg" />
-              </div>
-              <div class="swiper-slide">
-                <img src="https://freshcart.codescandy.com/assets/images/products/product-single-img-3.jpg" />
-              </div>
-              <div class="swiper-slide">
-                <img src="https://freshcart.codescandy.com/assets/images/products/product-single-img-4.jpg" />
-              </div>
-
-            </div>
-          </div>
+        </div>
         <!-- Product End -->
     </div>
     <!-- Main Container End -->
