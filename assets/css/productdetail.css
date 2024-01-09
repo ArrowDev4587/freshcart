@@ -10,9 +10,9 @@
 
 .productWrapper {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-direction: row;
-    gap: 50px;
+    gap: 100px;
     width: 100%;
     flex-wrap: wrap;
 }

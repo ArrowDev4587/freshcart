@@ -93,7 +93,7 @@ var swiper = new Swiper(".mySwiper", {
     watchSlidesProgress: true,
 });
 var swiper2 = new Swiper(".mySwiper2", {
-    loop: false,
+    loop: true,
     spaceBetween: 10,
     freeMode: false,
     navigation: {
