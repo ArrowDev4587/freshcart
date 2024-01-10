@@ -4702,14 +4702,6 @@ footer {
   transition: 0.5s;
 }
 
-.reviewFormFooter {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  width: 100%;
-  margin-top: 20px;
-}
-
 .reviewSubmitButton {
   display: flex;
   justify-content: center;
