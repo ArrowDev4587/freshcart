@@ -84,6 +84,32 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
+document.addEventListener("DOMContentLoaded", function() {
+    var checkInputs = document.querySelectorAll(".checkoutAccordionInput");
+
+    function uncheckOtherAccordions(currentAccordion) {
+        checkInputs.forEach(function(checkInput) {
+            if (checkInput !== currentAccordion && checkInput.checked) {
+                checkInput.checked = false;
+                checkInput.dispatchEvent(new Event('change')); // Bu satırı ekledik
+            }
+        });
+    }
+
+    checkInputs.forEach(function(checkInput) {
+        checkInput.addEventListener("change", function() {
+            var panel = this.nextElementSibling;
+            if (this.checked) {
+                panel.style.maxHeight = panel.scrollHeight + "px";
+                uncheckOtherAccordions(this);
+            } else {
+                panel.style.maxHeight = null;
+            }
+        });
+    });
+}
+);
+
 
 var swiper = new Swiper(".mySwiper", {
     loop: true,
@@ -151,4 +177,19 @@ function setRating(rating) {
             star.style.float = 'left';
         }
     }
+}
+
+function activateDeliveryTab(tabName, tabItem) {
+    var i;
+    var x = document.getElementsByClassName("deliveryTimeTab");
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+    }
+    var y = document.getElementsByClassName("deliveryTimeTabItem");
+    for (i = 0; i < y.length; i++) {
+        y[i].style.backgroundColor = "#d3d3d3";
+    }
+    document.getElementById(tabName).style.display = "flex"; 
+    document.getElementById(tabItem).style.backgroundColor = "green";
+    document.getElementById(tabItem).style.color = "white";
 }
