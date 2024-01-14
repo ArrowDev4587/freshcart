@@ -562,7 +562,7 @@ nav {
   display: block;
   width: 100%;
   height: 100%;
-  object-fit: fill;
+  object-fit: cover;
   border-radius: 10px;
 }
 
@@ -613,7 +613,7 @@ nav {
 .featured-slide-content img {
   width: 100;
   height: 100px;
-  object-fit: fill;
+  object-fit: cover;
 }
 
 .featured-slide-content h3 {
@@ -645,7 +645,7 @@ nav {
   width: 635px;
   height: 200px;
   position: absolute;
-  object-fit: fill;
+  object-fit: cover;
   border-radius: 10px;
 }
 
@@ -719,7 +719,7 @@ nav {
 .pop-prod-img {
   width:  200px;
   height: 200px;
-  object-fit: fill;
+  object-fit: cover;
   margin: 0 auto;
   position: relative;
   display: flex;
@@ -730,7 +730,7 @@ nav {
 .pop-prod-img img {
   width: 200px;
   height: 200px;
-  object-fit: fill;
+  object-fit: cover;
 }
 
 .pop-prod-btn-group {
@@ -938,7 +938,7 @@ nav {
 .dbs-img {
   width: 300px;
   height: 250px;
-  object-fit: fill;
+  object-fit: cover;
   margin: 0 auto;
   position: relative;
   display: flex;
@@ -949,7 +949,7 @@ nav {
 .dbs-img img {
   width: 100%;
   height: auto;
-  object-fit: fill;
+  object-fit: cover;
 }
 
 .dbs-btn-group {
@@ -1288,7 +1288,7 @@ nav {
 .download-option img {
   width: 100%;
   height: 100%;
-  object-fit: fill;
+  object-fit: cover;
   cursor: pointer;
   transition: 0.5s;
 }
@@ -1371,7 +1371,7 @@ nav {
 .cart-item-img {
   width: 120px;
   height: 120px;
-  object-fit: fill;
+  object-fit: cover;
 }
 
 .cart-item-left {
@@ -1863,7 +1863,7 @@ footer {
 .payment-partner {
   width: 50px;
   height: 30px;
-  object-fit: fill;
+  object-fit: cover;
 }
 
 .footer-center-right {
@@ -1891,7 +1891,7 @@ footer {
 .footer-download-option img {
   width: 100%;
   height: 100%;
-  object-fit: fill;
+  object-fit: cover;
   cursor: pointer;
   transition: 0.5s;
 }
@@ -2311,7 +2311,7 @@ footer {
 .about-us-image img {
   width: 100%;
   height: 100%;
-  object-fit: fill;
+  object-fit: cover;
   border-radius: 10px;
 }
 
