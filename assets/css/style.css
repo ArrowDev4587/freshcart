@@ -1389,8 +1389,8 @@ nav {
   border: 1px #d3d3d3 solid;
   border-radius: 15px;
   padding: 10px;
-  height: 60px;
-  font-size: 22px;
+  height: 30px;
+  font-size: 18px;
   color: green;
   cursor: pointer;
   transition: 0.5s;
@@ -4900,7 +4900,7 @@ footer {
   align-items: flex-start;
   flex-direction: column;
   width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 20px;.cart-item-trash-btn
 }
 
 .checkoutFooterButtons {
