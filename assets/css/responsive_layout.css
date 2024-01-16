@@ -1,3 +1,53 @@
 @media only screen and (max-width: 600px) {
+    .main-container {
+        width: 600px !important;
+        margin: 0 auto !important;
+    }
+    .top-menu-container{
+        display: flex !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+        width: 500px !important;;  
+        height: 12px !important;
+        position: relative !important;
+        padding: 5px 15px !important;
+    }
 
+    .header-bar {
+        justify-content: space-between !important;
+        align-items: center !important;
+        width: 500px !important;
+        position: relative !important;
+        padding: 5px 15px !important;
+    }
+
+    .header-bar-menu {
+        align-items: center !important;
+        justify-content: space-between !important;
+        flex-direction: column !important;
+        gap: 10px !important;
+        padding: 20px 0 !important;
+    }
+
+    .header-bar-search {
+        width: 360px !important;
+        position: relative !important;
+        height: 40px !important;
+    }
+
+    .search-btn {
+        width: 100px !important;
+    }
+
+    .header-right {
+        width: 500px !important;
+        position: absolute !important;
+        right: 20 !important;
+        top: 10 !important;
+    }
+
+    .header-bar-logo {
+        width: 100px !important;
+        margin-right: 338px !important;
+    }
 }
