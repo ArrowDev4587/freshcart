@@ -4119,7 +4119,7 @@ footer {
   justify-content: center;
   align-items: center;
   width: 200px;
-  height: 100%;
+  height: 39px;
   font-size: 16px;
   font-weight: 700;
   padding-bottom: 4px;
@@ -4131,7 +4131,7 @@ footer {
 .productDetailsTabItem:hover {
   transition: 0.5s;
   color: green;
-  border-bottom: 2px solid green;
+  border-bottom: 1px solid green;
 }
 
 .productDetailsTabContent {
