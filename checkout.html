@@ -240,7 +240,7 @@
                             <label for="checkoutAccordion1" class="checkoutAccordionLabel">
                                 <i class="fa-solid fa-map-location-dot"></i>
                                 Add delivery address
-                                <div class="checkoutAddNewAddressButton">
+                                <div onclick="openAddressModal()" class="checkoutAddNewAddressButton">
                                     Add a new address
                                 </div>
                             </label>
@@ -1093,6 +1093,52 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+        <div id="addressModal" class="addressModal">
+            <div class="addressModalContent">
+                <div class="addressModalHeader">
+                    <div class="addressModalHead">
+                        <div class="addressModalTitle">
+                            Add New Address
+                        </div>
+                        <div class="addressModalSubtitle">
+                            Add new shipping address for your order delivery.
+                        </div>
+                    </div>
+                    <div onclick="closeAddressModal()" class="addressModalClose">
+                        <i class="fa-solid fa-xmark"></i>
+                    </div>
+                </div>
+                <form class="addressForm" action="">
+                    <input placeholder="First name" type="text" class="addressFormInput">
+                    <input placeholder="Last name" type="text" class="addressFormInput">
+                    <input placeholder="Address Line 1" type="text" class="addressFormInput">
+                    <input placeholder="Address Line 2" type="text" class="addressFormInput">
+                    <input placeholder="City" type="text" class="addressFormInput">
+                    <select class="addressFormInputSelect">
+                        <option value="" >Türkiye</option>
+                        <option value="" >Azerbaycan</option>
+                        <option value="" >KKTC</option>
+                        <option value="" >Türkmenistan</option>
+                        <option value="" >Japonya</option>
+                        <option value="" >Güney Kore</option>
+                    </select>
+                    <input placeholder="Zip Code" type="text" class="addressFormInput">
+                    <input placeholder="Bussiness Name (Optional)" type="text" class="addressFormInput">
+                    <div class="addressFormGroup">
+                        <input type="checkbox">
+                        <label for="">Set as default</label>
+                    </div>
+                    <div class="addressFormFooter">
+                        <div onclick="closeAddressModal()" class="addressFormFooterCancelButton">
+                            Cancel
+                        </div>
+                        <div class="addressFormFooterSaveButton">
+                            Save Address
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
 

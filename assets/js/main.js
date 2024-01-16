@@ -193,3 +193,17 @@ function activateDeliveryTab(tabName, tabItem) {
     document.getElementById(tabItem).style.backgroundColor = "green";
     document.getElementById(tabItem).style.color = "white";
 }
+
+function openAddressModal() {
+    document.getElementById("addressModal").style.display = "flex";
+}
+
+function closeAddressModal() {
+    document.getElementById("addressModal").style.display = "none";
+}
+
+window.onclick = function(event) {
+    if (event.target == document.getElementById("addressModal")) {
+        document.getElementById("addressModal").style.display = "none";
+    }
+}
