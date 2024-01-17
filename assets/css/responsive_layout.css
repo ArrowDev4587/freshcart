@@ -114,4 +114,22 @@
         justify-content: center !important;
         align-items: center !important;
     }
+
+    .main-slide {
+        width: 500px !important;
+        height: 500px !important;
+        padding: 5px 15px !important;
+    }
+
+    .slide-image {
+        width: 500px !important;
+        height: 500px !important;
+    }
+
+    .slide-image img {
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: cover !important;
+        object-position: left !important;
+    }
 }
