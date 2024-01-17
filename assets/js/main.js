@@ -16,6 +16,18 @@ function accountDropdown() {
     }
 }
 
+function openNav() {
+    var myTopnav = document.getElementById("myTopnav");
+    if (myTopnav.style.display === "flex") {
+        myTopnav.style.display = "none";
+        console.log("none");
+    }
+    else {
+        myTopnav.style.display = "flex";
+        console.log("flex");
+    }
+}
+
 const s1 = new Swiper('.s1', {
     direction: 'horizontal',
     loop: false,

@@ -1,8 +1,13 @@
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 550px) {
     .main-container {
         width: 600px !important;
         margin: 0 auto !important;
     }
+
+    header {
+        display: block !important;
+    }
+
     .top-menu-container{
         display: flex !important;
         justify-content: space-between !important;
@@ -49,5 +54,69 @@
     .header-bar-logo {
         width: 100px !important;
         margin-right: 338px !important;
+    }
+
+    .menu-icon {
+        display: block !important;
+    }
+
+    .topnav {
+        width: 500px !important;
+        flex-direction: column !important;
+        position: relative !important;
+        padding: 5px 15px !important;
+        margin: 0 !important;
+    }
+
+    .dropdown {
+        margin-bottom: 10px;
+        width: 500px !important;
+    }
+
+    .dropdown-content {
+        width: 500px !important;
+        margin: 0 !important;
+        display: none !important;
+        justify-content: center !important;
+        align-items: center !important;
+        flex-direction: column !important;
+        padding: 15px 0 !important;
+        background-color: #faf3f3;
+        border-bottom: 1px solid #e7e7e7;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: flex !important;
+    }
+
+    .all-departments-btn {
+        width: 100% !important;
+        margin: 0 !important;
+        padding: 15px 0 !important;
+        background-color: #faf3f3;
+        border-bottom: 1px solid #e7e7e7;
+    }
+
+    .nav-item{
+        width: 100% !important;
+        margin: 0 !important;
+        padding: 15px 0 !important;
+        background-color: #faf3f3;
+        border-bottom: 1px solid #e7e7e7;
+    }
+
+    .mega-dropdown {
+        width: 100% !important;
+        margin: 0 !important;
+        background-color: #faf3f3;
+    }
+
+    .mega-dropdown-content {
+        width: 500px !important;
+        flex-wrap: wrap !important;
+        gap: 0 !important;
+        padding: 0 !important;
+        justify-content: center !important;
+        align-items: center !important;
     }
 }
