@@ -13,7 +13,8 @@
         display: flex !important;
         justify-content: space-between !important;
         align-items: center !important;
-        width: 500px !important;;  
+        width: 500px !important;
+        max-width: 100vw !important;
         height: 12px !important;
         position: relative !important;
         padding: 5px 15px !important;
