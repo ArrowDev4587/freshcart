@@ -16,6 +16,15 @@ function accountDropdown() {
     }
 }
 
+window.onload = function() {
+    if (window.innerWidth < 550) {
+        document.getElementById("myTopnav").style.display = "none";
+    }
+    else {
+        document.getElementById("myTopnav").style.display = "flex";
+    }
+}
+
 function openNav() {
     var myTopnav = document.getElementById("myTopnav");
     if (myTopnav.style.display === "flex") {
