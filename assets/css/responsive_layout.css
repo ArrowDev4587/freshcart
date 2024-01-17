@@ -132,4 +132,9 @@
         object-fit: cover !important;
         object-position: left !important;
     }
+
+    .featured-container {
+        max-width: 500px !important;
+        padding: 5px 15px !important;
+    }
 }
