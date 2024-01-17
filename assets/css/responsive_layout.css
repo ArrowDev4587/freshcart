@@ -1,6 +1,7 @@
 @media only screen and (max-width: 550px) {
     .main-container {
         width: 600px !important;
+        max-width: 100vw !important;
         margin: 0 auto !important;
     }
 
