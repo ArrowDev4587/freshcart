@@ -158,4 +158,28 @@
         width: 100% !important;
         height: 190px !important;
     }
+
+    .pop-prod-container {
+        width: 500px !important;
+        flex-direction: column !important;
+        padding: 5px 15px !important;
+        margin: 0 !important;
+    }
+
+    .pop-prod {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        width: 500px !important;
+        margin-top: 40px !important;
+        gap: 16px !important;
+    }
+
+    .pop-prod-card {
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        width: 200px !important;
+        height: auto !important;
+        margin: 0 !important;
+    }
 }
