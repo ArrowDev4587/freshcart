@@ -57,6 +57,12 @@ const s2 = new Swiper('.s2', {
     slidesPerView: 6,
     freeMode: true,
     spaceBetween: 0,
+    //breakpoints: {
+        // when window width is >= 480px
+    //    400: {
+    //        slidesPerView: 2,
+    //    },
+    //},
 });
 
 function showLoginPass() {
