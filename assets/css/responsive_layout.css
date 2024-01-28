@@ -1,5 +1,10 @@
 /* CSS for responsive layout on screens between 320px and 480px*/
 @media only screen and (min-width: 320px) and (max-width: 480px) {
+
+    html {
+        overflow-x: hidden !important;
+    }
+
     .main-container {
         width: 400px !important;
         max-width: 100vw !important;
@@ -298,5 +303,109 @@
 
     .feature-card {
         width: 360px !important;
+    }
+
+    footer {
+        width: 360px !important;
+        flex-direction: column !important;
+        padding: 5px 15px !important;
+        margin: 0 !important;
+    }
+
+    .footer-top-wrapper {
+        width: 360px !important;
+        flex-wrap: wrap !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+        margin: 40px 0 !important;
+        gap: 40px 0 !important;
+    }
+
+    .footer-category-list-container {
+        width: 360px !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        margin: 0 !important;
+    }
+
+    .footer-category-head {
+        width: 360px !important;
+        flex-direction: column !important;
+        margin: 0 !important;
+    }
+
+    .footer-category-lists {
+        width: 360px !important;
+        margin: 0 !important;
+    }
+
+    .footer-list-container {
+        flex: none !important;
+        height: auto !important;
+    }
+
+    .footer-list {
+        width: 140px !important;
+        flex-direction: column !important;
+        margin: 0 !important;
+    }
+
+    /* 2. ve 4. listelerin width değerleri 170px olarak ayarlandı. */
+    .footer-list:nth-child(1),
+    .footer-list:nth-child(3) {
+        width: 180px !important;
+    }
+
+    .footer-center-wrapper {
+        width: 360px !important;
+        height: auto !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        margin: 0 !important;
+        gap: 10px !important;
+    }
+
+    .footer-download-options{
+        width: 195px !important;
+        flex-direction: row !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+        margin: 0 !important;
+        gap: 5px !important;
+    }
+
+    .footer-download-option{
+        height: auto !important;
+        width: 100px !important;
+    }
+
+    .footer-download-option img {
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: cover !important;
+    }
+
+    .footer-center-left {
+        width: 360px !important;
+        gap: 35px !important;
+    }
+    
+    .payment-partners {
+        width: 195px !important;
+        flex-wrap: wrap !important; 
+        justify-content: center !important;
+        align-items: center !important;
+        gap: 0 !important;
+    }
+
+    .footer-bottom-wrapper {
+        width: 360px !important;
+        flex-wrap: wrap !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+        margin: 40px 0 !important;
+        gap: 40px 0 !important;
     }
 }
