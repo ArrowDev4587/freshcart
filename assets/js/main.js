@@ -68,6 +68,21 @@ const s2 = new Swiper('.s2', {
         480: {
             slidesPerView: 2,
         },
+        550: {
+            slidesPerView: 3,
+        },
+        640: {
+            slidesPerView: 3,
+        },
+        768: {
+            slidesPerView: 4,
+        },
+        1024: {
+        },
+        1280: {
+            slidesPerView: 6,
+        },
+        
     },
 });
 
