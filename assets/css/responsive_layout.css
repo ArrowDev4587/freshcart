@@ -424,4 +424,50 @@
         margin: 40px 0 !important;
         gap: 40px 0 !important;
     }
+
+    .favorites-container {
+        width: 360px !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        margin: 0 !important;
+        padding: 5px 15px !important;
+    }
+
+    .favoritesHeader {
+        width: 360px !important;
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        margin: 0 !important;
+        gap: 5px !important;
+    }
+
+    .favoritesWrapper {
+        width: 360px !important;
+        align-items: flex-start !important;
+        margin: 40px 0 !important;
+        gap: 10px !important;
+    }
+
+    .favoritesCard {
+        width: 140px !important;
+    }
+
+    .favoritesCardImage {
+        width: 140px !important;
+        height: 140px !important;
+    }
+
+    .favoritesCardHeader {
+        width: 160px !important;
+    }
+
+    .favoritesCardInfo {
+        width: 160px !important;
+    }
+
+    .favoritesCardTitle {
+        text-align: center !important;
+    }
+    
 }
