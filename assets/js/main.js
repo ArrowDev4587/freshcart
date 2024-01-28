@@ -59,6 +59,12 @@ const s2 = new Swiper('.s2', {
     freeMode: true,
     spaceBetween: 0,
     breakpoints: {
+        320: {
+            slidesPerView: 2,
+        },
+        400: {
+            slidesPerView: 2,
+        },
         480: {
             slidesPerView: 2,
         },
