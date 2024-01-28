@@ -13,6 +13,7 @@
 
     header {
         display: block !important;
+        width: 360px !important;
     }
 
     .top-menu-container{
@@ -124,7 +125,6 @@
     .main-slide {
         width: 360px !important;
         height: 500px !important;
-        padding: 5px 15px !important;
     }
 
     .slide-content {
@@ -155,6 +155,22 @@
         max-width: 360px !important;
         padding: 5px 15px !important;
     }
+
+    .swiper {
+        width: 360px !important;
+    }
+
+    .featured-slide {
+        flex-shrink: 100 !important;
+        width: 160px !important;
+    }
+
+    .featured-slide-content {
+        width: 160px !important;
+        flex-direction: column !important;
+        margin: 0 !important;
+    }
+
 
     .deals-container {
         width: 360px !important;

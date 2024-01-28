@@ -49,6 +49,7 @@ function openNav() {
 const s1 = new Swiper('.s1', {
     direction: 'horizontal',
     loop: false,
+    slidesPerView: 1,
 });
 
 const s2 = new Swiper('.s2', {
@@ -57,12 +58,11 @@ const s2 = new Swiper('.s2', {
     slidesPerView: 6,
     freeMode: true,
     spaceBetween: 0,
-    //breakpoints: {
-        // when window width is >= 480px
-    //    400: {
-    //        slidesPerView: 2,
-    //    },
-    //},
+    breakpoints: {
+        400: {
+            slidesPerView: 2,
+        },
+    },
 });
 
 function showLoginPass() {
