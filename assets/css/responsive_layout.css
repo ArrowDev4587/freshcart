@@ -469,5 +469,544 @@
     .favoritesCardTitle {
         text-align: center !important;
     }
+
+    .contact-container {
+        width: 360px !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        margin: 40px 0 !important;
+        padding: 5px 15px !important;
+    }
+
+    .contact-wrapper {
+        width: 360px !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        margin: 0 !important;
+        gap: 10px !important;
+    }
+
+    .contact-left {
+        width: 300px !important;
+        height: auto !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        margin: 0 !important;
+        gap: 10px !important;
+    }
     
+    .contact-form {
+        width: 300px !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        margin: 0 !important;
+        gap: 10px !important;
+    }
+
+    .contactFormRow {
+        width: 360px !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        margin: 0 !important;
+        gap: 10px !important;
+    }
+
+    .contact-form-group {
+        width: 300px !important;
+        margin: 0 !important;
+    }
+
+    .contactFormInput {
+        width: 300px !important;
+        margin: 0 !important;
+    }
+
+    .contactFormInputFull {
+        width: 300px !important;
+        margin: 0 !important;
+    }
+
+    .contactFormTextarea {
+        width: 300px !important;
+        margin: 0 !important;
+    }
+
+    .contact-btn {
+        width: 315px !important;
+        margin: 0 !important;
+    }
+
+    .contact-right {
+        width: 300px !important;
+        height: auto !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        margin: 0 !important;
+        gap: 10px !important;
+    }
+
+    .googleMapWrapper {
+        width: 360px !important;
+        height: 400px !important;
+    }
+
+    .login-container {
+        width: 360px !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        padding: 5px 15px !important;
+        margin: 20px 0 !important;
+    }
+
+    .login-banner-wrapper {
+        width: 360px !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        padding: 5px 15px !important;
+        margin: 0 !important;
+    }
+
+    .login-wrapper {
+        width: 360px !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        padding: 5px 15px !important;
+        margin: 0 !important;
+    }
+
+    .register-container {
+        width: 360px !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        padding: 5px 15px !important;
+        margin: 20px 0 !important;
+    }
+
+    .register-banner-wrapper {
+        width: 360px !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        padding: 5px 15px !important;
+        margin: 0 !important;
+    }
+
+    .register-wrapper {
+        width: 360px !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        padding: 5px 15px !important;
+        margin: 0 !important;
+    }
+
+    .about-us-container {
+        width: 360px !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        padding: 5px 15px !important;
+        margin: 20px 0 !important;
+    }
+
+    .about-us-header {
+        width: 360px !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        padding: 5px 15px !important;
+        margin: 0 !important;
+        gap: 10px !important;
+    }
+
+    .about-us-content {
+        width: 360px !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        padding: 5px 15px !important;
+        margin: 0 !important;
+    }
+
+    .about-us-image {
+        width: 360px !important;
+        height: 400px !important;
+    }
+
+    .about-us-learn-more {
+        width: 360px !important;
+        height: auto !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        padding: 5px 15px !important;
+        margin: 0 !important;
+        gap: 10px !important;
+    }
+
+    .learnMoreTitle {
+        margin: 40px 0 !important;
+    }
+
+    .learnMoreWrapper {
+        width: 360px !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        padding: 5px 15px !important;
+        margin: 0 !important;
+        gap: 10px !important;
+    }
+
+    .learnMoreCard {
+        width: 320px !important;
+        height: 360px !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .learnMoreCardImage {
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .learnMoreCardButton {
+        width: 290px !important;
+        height: 40px !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .learnMoreBottomText {
+        display: inline-block !important;
+        width: 360px !important;
+        height: auto !important;
+        padding: 5px 15px !important;
+        margin: 40px 0 !important;
+    }
+
+    .about-us-trustedBy {
+        width: 360px !important;
+        height: auto !important;
+        padding: 15px 0 !important;
+        margin: 40px auto !important;
+    }
+    
+    .trustedByWrapper {
+        width: 360px !important;
+        height: auto !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        gap: 10px !important;
+    }
+
+    .trustedByContent {
+        width: 320px !important;
+        flex-direction: column !important;
+        justify-content: flex-start !important;
+        align-items: flex-start !important;
+        padding: 5px 15px !important;
+    }
+
+    .trustedByStatistics {
+        width: 360px !important;
+        height: auto !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .trustedByStatisticUnit {
+        width: 250px !important;
+        height: auto !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .cart-container {
+        width: 360px !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        padding: 5px 15px !important;
+        margin: 20px 0 !important;
+    }
+
+    .cart {
+        width: 360px !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        margin: 0 !important;
+        gap: 10px !important;
+    }
+
+    .cart-items {
+        width: 340px !important;
+        height: auto !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        margin: 0 !important;
+    }
+
+    .cart-item {
+        width: 350px !important;
+        height: 70px !important;
+        column-gap: 10px !important;
+        padding: 10px 5px !important;
+    }
+
+    .cart-item-left-img, .cart-item-left-img img {
+        width: 70px !important;
+        height: 70px !important;
+    }
+
+    .cart-item-trash-btn {
+        width: 10px !important;
+        height: 20px !important;
+    }
+
+    .cart-item-trash-btn i {
+        font-size: 16px !important;
+    }
+
+    .cart-center-left {
+        width: 60px !important;
+        height: 70px !important;
+    }
+
+    .cart-item-title {  
+        font-size: 15px !important;
+    }
+
+    .cart-center-right {
+        width: 100px !important;
+        height: 70px !important;
+    }
+
+    .cart-item-quantity {
+        width: 80px !important;
+    }
+
+    .cart-item-quantity-input {
+        width: 25px !important;
+    }
+
+    .cart-item-right {
+        width: 50px !important;
+    }
+
+    .cart-item-price {
+        font-size: 16px !important;
+    }
+
+    .cart-item-saving {
+        display: none !important;
+    }
+
+    .cart-checkout {
+        width: 340px !important;
+        height: auto !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        margin: 0 !important;
+    }
+
+    .coupon-code {
+        width: 360px !important;
+        justify-content: flex-start !important;
+    }
+
+    .coupon-input {
+        width: 300px !important;
+    }
+
+    .checkout-btn {
+        width: 320px !important;
+    }
+
+    .checkout-container {
+        width: 360px !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        padding: 5px 15px !important;
+        margin: 20px 0 !important;
+    }
+
+    .checkoutWrapper {
+        width: 360px !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        margin: 0 !important;
+        gap: 10px !important;
+    }
+
+    .checkoutWrapperLeft {
+        width: 360px !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        margin: 0 !important;
+        gap: 10px !important;
+    }
+
+    .checkoutAccordionWrapper {
+        width: 360px !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        margin: 0 !important;
+        gap: 10px !important;
+    }
+
+    .checkoutAccordion {
+        width: 360px !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        margin: 0 !important;
+    }
+
+    .checkoutAddNewAddressButton {
+        width: 20px !important;
+        height: 30px !important;
+        margin: 0 !important;
+    }
+
+    .checkoutAddNewAddressButton:hover .checkoutAddnewAddressIcon {
+        color: white !important;
+        transition: 0.5s !important;
+    }
+
+    .checkoutAddnewAddressText {
+        display: none !important;
+    }
+
+    .checkoutAddnewAddressIcon {
+        display: block !important;
+        font-size: 20px !important;
+        color: green !important;
+        transition: 0.5s !important;
+    }
+
+    .checkoutDeliveryAddress {
+        width: 360px !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        margin: 0 !important;
+    }
+
+    .checkoutDeliveryAddressCard {
+        width: 340px !important;
+        height: auto !important;
+        column-gap: 10px !important;
+        padding: 20px 10px !important;
+    }
+
+    .deliveryTimeTabItem {
+        width: 100px !important;
+        height: 40px !important;
+        margin: 0 !important;
+    }
+
+    .deliveryTimeTabItemTitle {
+        font-size: 14px !important;
+    }
+
+    .deliveryTimeTabItemSubtitle {
+        font-size: 12px !important;
+    }
+
+    .checkoutDeliveryInstructions {
+        width: 340px !important;
+        height: auto !important;
+        column-gap: 10px !important;
+        padding: 20px 10px !important;
+    }
+
+    .deliveryInstructionsTextarea {
+        width: 320px !important;
+    }
+
+    .paymentMethodCard {
+        width: 340px !important;
+        height: auto !important;
+        column-gap: 10px !important;
+        padding: 20px 10px !important;
+    }
+
+    .paymentMethodInputCardNumber {
+        width: 330px !important;
+    }
+
+    .checkoutWrapperRight {
+        width: 360px !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        margin: 0 !important;
+        gap: 10px !important;
+    }
+
+    .checkoutOrderDetails {
+        width: 360px !important;
+        height: auto !important;
+        column-gap: 10px !important;
+        padding: 5px 0 !important;
+    }
+
+    .orderDetailsHead {
+        width: 340px !important;
+        height: 10px !important;
+        column-gap: 10px !important;
+        padding: 20px 10px !important;
+    }
+
+    .orderDetailsProducts {
+        width: 340px !important;
+        height: auto !important;
+
+    }
+
+    .orderDetailsProduct {
+        width: 330px !important;
+        height: 40px !important;
+        padding: 10px 15px !important;
+    }
+
+    .orderDetailsProductDetail {
+        width: 140px !important;
+    }
+
+    .orderDetailsPriceCalculations {
+        width: 340px !important;
+        height: auto !important;
+        column-gap: 10px !important;
+        padding: 20px 10px !important;
+    }
+
+    .orderDetailsSubtotal {
+        width: 340px !important;
+        height: auto !important;
+        column-gap: 10px !important;
+        padding: 20px 10px !important;
+    }
+
+    .addressModalContent {
+        width: 340px !important;
+        height: auto !important;
+        column-gap: 10px !important;
+        padding: 20px 10px !important;
+    }
+
+    .addressFormInput {
+        width: 330px !important;
+    }
+
+    .addressFormInputSelect {
+        width: 341.82px !important;
+    }
 }
