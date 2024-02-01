@@ -122,6 +122,39 @@
         align-items: center !important;
     }
 
+    .mega-dropdown-content ul {
+        width: 360px !important;
+        margin: 5px 0 !important;
+        padding: 0 !important;
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .mega-dropdown-content ul li:nth-child(1) {
+        font-size: 18px;
+        font-weight: bold;
+        background-color: #f0f3f2;
+        width: 100% !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important; 
+        margin: 0 !important;
+        padding: 15px 0 !important;
+        border-bottom: 1px solid #e7e7e7;
+    }
+
+    .mega-dropdown-content ul img {
+        width: 340px !important;
+        height: 400px !important;
+        object-fit: cover !important;
+    }
+
+    .mega-dropdown-content ul li {
+        font-size: 16px !important;
+    }
+
     .main-slide {
         width: 360px !important;
         height: 500px !important;
