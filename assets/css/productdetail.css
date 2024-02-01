@@ -70,8 +70,8 @@
 }
 
 .mySwiper {
-    height: 400px !important;
-    width: 640px !important;
+    height: 400px;
+    width: 640px;
 }
 
 .mySwiper {
@@ -81,8 +81,8 @@
 }
 
 .mySwiper .swiper-slide {
-    width: 150px !important;
-    height: 100px !important;
+    width: 150px;
+    height: 100px;
     opacity: 0.4;
 }
 

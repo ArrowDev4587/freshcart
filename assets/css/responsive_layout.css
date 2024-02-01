@@ -1009,4 +1009,177 @@
     .addressFormInputSelect {
         width: 341.82px !important;
     }
+
+    .product-container {
+        width: 360px !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        padding: 5px 15px !important;
+        margin: 20px 0 !important;
+    }
+
+    .productWrapper {
+        width: 360px !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        margin: 0 !important;
+        gap: 20px !important;
+    }
+
+    .productWrapperLeft {
+        width: 360px !important;
+        height: 700px !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        margin: 0 !important;
+    }
+
+    .mySwiper {
+        width: 360px !important;
+        height: 100px !important;
+    }
+
+    .productWrapperRight {
+        width: 360px !important;
+        height: auto !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        margin: 0 !important;
+    }
+
+    .productDetails {
+        width: 360px !important;
+        height: auto !important;
+        flex-direction: column !important;
+        justify-content: flex-start !important;
+        margin: 0 !important;
+        gap: 10px !important;
+    }
+
+    .productReviews {
+        width: 360px !important;
+        height: auto !important;
+        justify-content: center !important;
+        margin: 0 !important;
+        gap: 10px !important;
+    }
+
+    .productPriceWrapper {
+        margin: 0 auto !important;
+    }
+
+    .productAmountOptions {
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .productQuantity {
+        width: 360px !important;
+        height: 40px !important;
+        justify-content: center !important;
+        align-items: center !important;
+        border-bottom: 0 !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .productQuantityLeftBtn, .productQuantityInput, .productQuantityRightBtn {
+        width: 40px !important;
+        height: 40px !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        font-size: 16px !important;
+    }
+    
+    .productButtonGroup {
+        width: 360px !important;
+        border-bottom: 0 !important;
+        justify-content: center !important;
+        align-items: center !important;
+        border-bottom: 0 !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .productWrapperBottom {
+        width: 360px !important;
+        height: auto !important;
+        flex-direction: column !important;
+        justify-content: flex-start !important;
+        margin: 0 !important;
+        gap: 10px !important;
+    }
+
+    .productInfoTableWrapper {
+        width: 360px !important;
+        height: auto !important;
+        flex-direction: column !important;
+        justify-content: flex-start !important;
+        margin: 0 !important;
+        gap: 0 !important;
+    }
+
+    .productInfoTable1, .productInfoTable2 {
+        width: 360px !important;
+        height: auto !important;
+        justify-content: flex-start !important;
+        margin: 0 !important;
+    }
+
+    .productDetailsReviewsWrapper {
+        width: 360px !important;
+        height: auto !important;
+        flex-direction: column !important;
+        justify-content: flex-start !important;
+        margin: 0 !important;
+    }
+
+    .reviewsLeft {
+        width: 360px !important;
+        height: auto !important;
+        justify-content: flex-start !important;
+        margin: 0 !important;
+    }
+
+    .reviewsRight {
+        width: 360px !important;
+        height: auto !important;
+        justify-content: flex-start !important;
+        margin: 20px 0 !important;
+    }
+
+    .reviewCardRight {
+        width: 280px !important;
+        height: auto !important;
+        justify-content: flex-start !important;
+        margin: 0 !important;
+    }
+
+    .reviewCardRating {
+        width: 280px !important;
+        height: auto !important;
+        flex-direction: column !important;
+        justify-content: flex-start !important;
+        align-items: flex-start !important;
+        margin: 0 !important;
+    }
+
+    .reviewsFormHeadline input {
+        width: 320px !important;
+    }
+
+    .drop-container {
+        width: 318px !important;
+        height: auto !important;
+        justify-content: flex-start !important;
+        margin: 0 !important;
+    }
+
+    .reviewText textarea {
+        width: 320px !important;
+    }
+
+    .reviewSubmitButton {
+        width: 360px !important;
+    }
 }
