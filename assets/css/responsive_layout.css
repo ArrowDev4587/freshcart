@@ -1110,6 +1110,10 @@
         gap: 10px !important;
     }
 
+    .productDetailsTabItem {
+        font-size: 15px !important;
+    }
+    
     .productInfoTableWrapper {
         width: 360px !important;
         height: auto !important;
