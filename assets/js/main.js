@@ -252,3 +252,12 @@ window.onclick = function(event) {
         document.getElementById("addressModal").style.display = "none";
     }
 }
+
+function activateFilters() {
+    if (document.getElementById("filters").style.display == "none") {
+        document.getElementById("filters").style.display = "block";
+    }
+    else {
+        document.getElementById("filters").style.display = "none";
+    }
+}

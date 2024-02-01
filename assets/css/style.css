@@ -2739,6 +2739,26 @@ footer {
   width: 100%;
 }
 
+.productsActivateFilterButton {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 360px;
+  height: 40px;
+  background: green;
+  color: white;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 700;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.productsActivateFilterButton:hover {
+  transition: 0.5s;
+  background: darkgreen;
+}
+
 .productsFilterContainer {
   display: flex;
   flex-direction: column;

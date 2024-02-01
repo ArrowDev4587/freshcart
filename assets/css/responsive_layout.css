@@ -1186,4 +1186,197 @@
     .reviewSubmitButton {
         width: 360px !important;
     }
+
+    .products-container {
+        width: 360px !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        padding: 5px 15px !important;
+        margin: 20px 0 !important;
+    }
+
+    .products-wrapper {
+        width: 360px !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        margin: 0 !important;
+        gap: 20px !important;
+    }
+
+    .productsActivateFilterButton {
+        display: flex !important;
+    }
+
+    .productsFilterContainer {
+        width: 360px !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        margin: 0 !important;
+    }
+    
+    .productsAccordionCategoryTitle {
+        width: 340px !important;
+        justify-content: center !important;
+    }
+
+    .productsAccordionCategory {
+        width: 360px !important;
+    }
+
+    .productsAccordionLabel {
+        width: 340px !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        margin: 0 !important;
+    }
+
+    .productsAccordionContent {
+        width: 340px !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        margin: 10px 0 !important;
+        padding: 0 !important;
+    }
+
+    .productsAccordionList {
+        display: flex !important;
+        width: 340px !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        margin: 0 !important;
+    }
+
+    .productsStoresWrapper {
+        width: 360px !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        margin: 10px 0 !important;
+        padding: 0 !important;
+    }
+
+    .productsStoresTitle {
+        width: 340px !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        margin: 0 !important;
+    }
+
+    .productsStoresSearch {
+        width: 340px !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        margin: 0 !important;
+    }
+
+    .productsStoresChecks {
+        width: 360px !important;
+        height: auto !important;
+        flex-wrap: wrap !important;
+        flex-direction: row !important;
+        justify-content: center !important;
+    }
+
+    .productsStoresCheck {
+        width: 170px !important;
+        height: 20px !important;
+        justify-content: flex-start !important;
+        margin: 0 !important;
+    }
+
+    .productsPriceRange {
+        width: 360px !important;
+        height: auto !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        margin: 10px 0 !important;
+        padding: 0 !important;
+    }
+
+    .productsPriceRangeTitle {
+        width: 340px !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        margin: 0 !important;
+    }
+
+    .productsPriceRangeContainer {
+        width: 360px !important;
+        justify-content: center !important;
+        margin: 0 !important;
+    }
+
+    .productsPriceRangeContainerLeftInput {
+        width: 160px !important;
+        margin: 0 !important;
+    }
+
+    .productsPriceRangeContainerRightInput {
+        width: 160px !important;
+        margin: 0 !important;
+    }
+
+    .productsFilterButton {
+        width: 360px !important;
+        justify-content: center !important;
+        margin: 0 !important;
+    }
+
+    .productsMainContainer {
+        width: 360px !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        margin: 10px 0 !important;
+        padding: 0 !important;
+        gap: 10px !important;
+    }
+
+    .productsHeader {
+        width: 360px !important;
+        height: 40px !important;
+        flex-direction: column !important;
+        justify-content: flex-start !important;
+        align-items: flex-start !important;
+        margin: 0 !important;
+        gap: 5px !important;
+    }
+
+    .productsMainWrapper {
+        width: 360px !important;
+        height: auto !important;
+        flex-wrap: wrap !important;
+        justify-content: flex-start !important;
+        margin: 10px 0 !important;
+        padding: 0 !important;
+        gap: 5px !important;
+    }
+
+    .products-pop-prod-card {
+        width: 145px !important;
+        height: auto !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        margin: 0 !important;
+        padding: 15px !important;
+    }
+
+    .products-pop-prod-btn-group {
+        width: 145px !important;
+        left: auto !important;
+    }
+
+    .products-pop-prod-img {
+        width: 145px !important;
+        height: 140px !important;
+    }
+
+    .products-pop-prod-title {
+        font-size: 13px !important;
+    }
+
+    .products-pop-prod-rating {
+        font-size: 12px !important;
+    }
 }

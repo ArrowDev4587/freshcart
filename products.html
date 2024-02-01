@@ -230,13 +230,15 @@
         <!-- Products Start -->
         <div class="products-container">
             <div class="products-wrapper">
-                <div class="productsFilterContainer">
+                <div onclick="activateFilters()" class="productsActivateFilterButton">
+                    Filters
+                </div>
+                <div class="productsFilterContainer" id="filters">
                     <div class="productsAccordionCategories">
                         <div class="productsAccordionCategory">
                             <div class="productsAccordionCategoryTitle">
                                 Categories
                             </div>
-
                             <div class="productsAccordion">
                                 <input checked type="checkbox" name="productsAccordion" id="productsAccordion1" class="productsAccordionInput">
                                 <label for="productsAccordion1" class="productsAccordionLabel">Dairy, Bread & Eggs</label>
