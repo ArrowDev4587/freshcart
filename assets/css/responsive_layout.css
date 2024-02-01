@@ -1059,24 +1059,24 @@
     .productReviews {
         width: 360px !important;
         height: auto !important;
-        justify-content: center !important;
+        justify-content: flex-start !important;
         margin: 0 !important;
         gap: 10px !important;
     }
 
     .productPriceWrapper {
-        margin: 0 auto !important;
+        margin: 0!important;
     }
 
     .productAmountOptions {
-        justify-content: center !important;
+        justify-content: flex-start !important;
         align-items: center !important;
     }
 
     .productQuantity {
         width: 360px !important;
         height: 40px !important;
-        justify-content: center !important;
+        justify-content: flex-start !important;
         align-items: center !important;
         border-bottom: 0 !important;
         margin: 0 !important;
@@ -1094,7 +1094,7 @@
     .productButtonGroup {
         width: 360px !important;
         border-bottom: 0 !important;
-        justify-content: center !important;
+        justify-content: flex-start !important;
         align-items: center !important;
         border-bottom: 0 !important;
         margin: 0 !important;
@@ -1113,7 +1113,7 @@
     .productDetailsTabItem {
         font-size: 15px !important;
     }
-    
+
     .productInfoTableWrapper {
         width: 360px !important;
         height: auto !important;
