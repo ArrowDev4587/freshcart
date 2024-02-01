@@ -2743,10 +2743,11 @@ footer {
   display: none;
   align-items: center;
   justify-content: center;
-  width: 360px;
+  gap: 5px;
+  width: 100px;
   height: 40px;
-  background: green;
-  color: white;
+  background: #d3d3d3;
+  color: #001E2B;
   border-radius: 10px;
   font-size: 14px;
   font-weight: 700;
@@ -2756,7 +2757,8 @@ footer {
 
 .productsActivateFilterButton:hover {
   transition: 0.5s;
-  background: darkgreen;
+  background: green;
+  color: white;
 }
 
 .productsFilterContainer {

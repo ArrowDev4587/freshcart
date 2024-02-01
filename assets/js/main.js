@@ -17,22 +17,27 @@ function accountDropdown() {
 }
 
 window.onload = function() {
-    if (window.innerWidth < 550) {
+    if (window.innerWidth <= 400) {
         document.getElementById("myTopnav").style.display = "none";
+        document.getElementById("filters").style.display = "none";
     }
     else {
         document.getElementById("myTopnav").style.display = "flex";
+        document.getElementById("filters").style.display = "flex";
     }
 }
 
 window.onresize = function() {
-    if (window.innerWidth < 550) {
+    if (window.innerWidth <= 400) {
         document.getElementById("myTopnav").style.display = "none";
+        document.getElementById("filters").style.display = "none";
     }
     else {
         document.getElementById("myTopnav").style.display = "flex";
+        document.getElementById("filters").style.display = "flex";
     }
 }
+
 
 function openNav() {
     var myTopnav = document.getElementById("myTopnav");
@@ -187,9 +192,9 @@ function activateTab(tabName) {
 }
 
 const dropContainer = document.getElementById("dropcontainer")
-    const fileInput = document.getElementById("images")
+const fileInput = document.getElementById("images")
 
-    dropContainer.addEventListener("dragover", (e) => {
+dropContainer.addEventListener("dragover", (e) => {
     // prevent default to allow drop
     e.preventDefault()
 }, false)
