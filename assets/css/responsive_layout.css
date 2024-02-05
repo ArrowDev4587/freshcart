@@ -803,11 +803,11 @@
 
     .cart-item-trash-btn {
         width: 10px !important;
-        height: 20px !important;
+        height: 10px !important;
     }
 
     .cart-item-trash-btn i {
-        font-size: 16px !important;
+        font-size: 14px !important;
     }
 
     .cart-center-left {
@@ -816,7 +816,7 @@
     }
 
     .cart-item-title {  
-        font-size: 15px !important;
+        font-size: 14px !important;
     }
 
     .cart-center-right {
